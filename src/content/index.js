@@ -58,6 +58,18 @@ export default {
 						alt: ''
 					}
 				]
+			},
+			{
+				name: 'Personal CV website',
+				screenshotLink: 'https://i.ibb.co/y4jgb3n/cv.jpg',
+				github: '',
+				websiteLink: '',
+				technologies: [
+					{
+						img: '',
+						alt: ''
+					}
+				]
 			}
 		]
 	},
