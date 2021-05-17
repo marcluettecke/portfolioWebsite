@@ -23,8 +23,8 @@ export default function Header() {
 				<div className='w-full md:w-2/5'>
 					<LazyLoadImage
 						src={content.header.img}
-						effect='blur'
-						placeholderSrc={process.env.PUBLIC_URL + '/logo512.png'}
+						// effect='blur'
+						placeholderSrc={process.env.PUBLIC_URL + '/assets/stack_logos/react.png'}
 					/>
 				</div>
 				<div className='text-white font-dosis text-center md:text-left'>
@@ -49,11 +49,16 @@ export default function Header() {
 							className='inline-block'
 						/>
 					</h1>
-					<ScrollLink to='stack' smooth={true}>
-						<button className=' animate-float bg-indigo-500 px-10 py-3 text-xl uppercase mt-10 rounded-lg'>
-							{content.header.btnText}
+					<div className='flex space-x-4 mb-10'>
+						<ScrollLink to='projects' smooth={true}>
+							<button className='bg-gray-500 hover:bg-gray-400 px-10 py-3 text-xl uppercase mt-10 rounded-lg'>
+								{content.header.btnTextLeft}
+							</button>
+						</ScrollLink>
+						<button className='bg-indigo-500 hover:bg-indigo-400 px-10 py-3 text-xl uppercase mt-10 rounded-lg'>
+							{content.header.btnTextRight}
 						</button>
-					</ScrollLink>
+					</div>
 				</div>
 			</div>
 		</div>
