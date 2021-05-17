@@ -9,9 +9,9 @@ let slides = content.projects.websites.map(website => {
 
 const Projects = props => {
 	return (
-		<div className='min-h-screen font-dosis text-center'>
+		<div className='min-h-screen font-dosis text-center' id='projects'>
 			<h1 className='text-5xl font-bold mt-20'>My past projects</h1>
-			<div id='projects' className='mt-10'>
+			<div className='mt-10'>
 				<Carousel slides={slides} autoplay={true} interval={5000} />
 			</div>
 		</div>
