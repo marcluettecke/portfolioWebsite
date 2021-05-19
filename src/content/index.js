@@ -25,6 +25,7 @@ export default {
 		websites: [
 			{
 				name: 'Skateshop App',
+				type: 'frontend',
 				screenshotLink: 'https://i.ibb.co/DG5rntz/skate-Shop.jpg',
 				github: '',
 				websiteLink: '',
@@ -37,7 +38,8 @@ export default {
 			},
 			{
 				name: 'Weather App',
-				screenshotLink: 'https://i.ibb.co/WPQgTQn/weather-App.jpg',
+				type: 'frontend',
+				screenshotLink: 'https://i.ibb.co/NrQJScw/weather-App-cropped.jpg',
 				github: '',
 				websiteLink: '',
 				technologies: [
@@ -49,6 +51,7 @@ export default {
 			},
 			{
 				name: 'Kobe Bryant memorial app',
+				type: 'frontend',
 				screenshotLink: 'https://i.ibb.co/7p3r1K6/mamba-Mermories.jpg',
 				github: '',
 				websiteLink: '',
@@ -61,7 +64,73 @@ export default {
 			},
 			{
 				name: 'Personal CV website',
-				screenshotLink: 'https://i.ibb.co/y4jgb3n/cv.jpg',
+				type: 'frontend',
+				screenshotLink: 'https://i.ibb.co/VW0Yz64/cv.jpg',
+				github: '',
+				websiteLink: '',
+				technologies: [
+					{
+						img: '',
+						alt: ''
+					}
+				]
+			},
+			{
+				name: 'Nexter Dummy website',
+				type: 'frontend',
+				screenshotLink: 'https://i.ibb.co/c8Bd77j/nexter-cropped.jpg',
+				github: '',
+				websiteLink: '',
+				technologies: [
+					{
+						img: '',
+						alt: ''
+					}
+				]
+			},
+			{
+				name: 'Soccer Formations Frontend - Thesis application',
+				type: 'frontend',
+				screenshotLink: 'https://i.ibb.co/txrdXTb/soccer-Formations.jpg',
+				github: '',
+				websiteLink: '',
+				technologies: [
+					{
+						img: '',
+						alt: ''
+					}
+				]
+			},
+			{
+				name: 'Business Statscard',
+				type: 'practice',
+				screenshotLink: 'https://i.ibb.co/9HShKjB/statscard-cropped.jpg',
+				github: '',
+				websiteLink: '',
+				technologies: [
+					{
+						img: '',
+						alt: ''
+					}
+				]
+			},
+			{
+				name: 'Business Coming Soon',
+				type: 'practice',
+				screenshotLink: 'https://i.ibb.co/kcT5bVv/baseapparel-cropped.jpg',
+				github: '',
+				websiteLink: '',
+				technologies: [
+					{
+						img: '',
+						alt: ''
+					}
+				]
+			},
+			{
+				name: 'Three column grid',
+				type: 'practice',
+				screenshotLink: 'https://i.ibb.co/kgvR0b9/three-Column-Grid-cropped.jpg',
 				github: '',
 				websiteLink: '',
 				technologies: [
