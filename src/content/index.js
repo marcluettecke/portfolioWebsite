@@ -39,7 +39,7 @@ export default {
 			{
 				name: 'Weather App',
 				type: 'frontend',
-				screenshotLink: 'https://i.ibb.co/NrQJScw/weather-App-cropped.jpg',
+				screenshotLink: 'https://i.ibb.co/wSZ4sQ3/weather-App-cropped.jpg',
 				github: '',
 				websiteLink: '',
 				technologies: [
@@ -77,7 +77,7 @@ export default {
 			},
 			{
 				name: 'Nexter Dummy website',
-				type: 'frontend',
+				type: 'practice',
 				screenshotLink: 'https://i.ibb.co/c8Bd77j/nexter-cropped.jpg',
 				github: '',
 				websiteLink: '',
@@ -104,7 +104,7 @@ export default {
 			{
 				name: 'Business Statscard',
 				type: 'practice',
-				screenshotLink: 'https://i.ibb.co/9HShKjB/statscard-cropped.jpg',
+				screenshotLink: 'https://i.ibb.co/pjmkD8k/statscard-cropped.jpg',
 				github: '',
 				websiteLink: '',
 				technologies: [

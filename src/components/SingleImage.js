@@ -1,11 +1,15 @@
 import React from 'react';
 // import classes from './SingleImage.module.css';
+import ProjectCard from './UI/ProjectCard';
 
 const SingleImage = props => {
 	return (
-		<a href='https://google.com'>
-			<img src={props.website.screenshotLink} alt={props.website.name} />
-		</a>
+		<ProjectCard
+			imageLabel={props.website.name}
+			imagePath={props.website.screenshotLink}
+			description='This is a test description'
+			title='This is a test title'
+		/>
 	);
 };
 export default SingleImage;

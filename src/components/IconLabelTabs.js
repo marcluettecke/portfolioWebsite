@@ -1,12 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import PhoneIcon from '@material-ui/icons/Phone';
 
 import Projects from './Projects';
 
@@ -22,9 +20,9 @@ function TabPanel(props) {
 			{...other}
 		>
 			{value === index && (
-				<Box p={3}>
-					<Typography>{children}</Typography>
-				</Box>
+				// <Box p={3}>
+				<Typography>{children}</Typography>
+				// </Box>
 			)}
 		</div>
 	);
@@ -57,22 +55,22 @@ export default function IconLabelTabs() {
 				<Tab
 					icon={<FontAwesomeIcon icon='globe' />}
 					label='All Projects'
-					className='focus:outline-none'
+					style={{ fontSize: '20px', outline: 'none' }}
 				/>
 				<Tab
 					icon={<FontAwesomeIcon icon='chart-bar' />}
 					label='Data Science'
-					className='focus:outline-none'
+					style={{ fontSize: '20px', outline: 'none' }}
 				/>
 				<Tab
 					icon={<FontAwesomeIcon icon='desktop' />}
 					label='Frontend'
-					className='focus:outline-none'
+					style={{ fontSize: '20px', outline: 'none' }}
 				/>
 				<Tab
 					icon={<FontAwesomeIcon icon='dumbbell' />}
 					label='Practice'
-					className='focus:outline-none'
+					style={{ fontSize: '20px', outline: 'none' }}
 				/>
 			</Tabs>
 			<TabPanel value={value} index={0}>
