@@ -17,6 +17,7 @@ export default function Header() {
 			className='min-h-screen flex items-center justify-center'
 			style={{
 				background: '#091c29'
+				// background: 'linear-gradient(90deg, rgba(4,0,64,1) 65%, rgba(30,30,153,1) 100%)'
 			}}
 		>
 			<div className='w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between'>

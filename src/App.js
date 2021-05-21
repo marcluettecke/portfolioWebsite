@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
 import IconLabelTabs from './components/IconLabelTabs';
+import Partners from './components/Partners';
 import Stack from './components/Stack';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -29,6 +30,7 @@ function App() {
 			<Navigation />
 			<Header />
 			<IconLabelTabs />
+			<Partners category={'all'} />
 			<Stack />
 		</ThemeProvider>
 	);

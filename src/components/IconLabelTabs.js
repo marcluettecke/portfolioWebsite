@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import Typography from '@material-ui/core/Typography';
-import Paper from '@material-ui/core/Paper';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -42,7 +41,8 @@ export default function IconLabelTabs() {
 	};
 
 	return (
-		<Paper square>
+		// <Paper square style={{ backgroundColor: '#091c29' }}>
+		<Fragment>
 			<Tabs
 				value={value}
 				onChange={handleChange}
@@ -85,6 +85,6 @@ export default function IconLabelTabs() {
 			<TabPanel value={value} index={3}>
 				<Projects category={'practice'}></Projects>
 			</TabPanel>
-		</Paper>
+		</Fragment>
 	);
 }

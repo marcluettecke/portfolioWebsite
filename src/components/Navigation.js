@@ -6,6 +6,7 @@ export default function Navigation() {
 		<div
 			style={{
 				background: '#091c29'
+				// background: 'linear-gradient(90deg, rgba(4,0,64,1) 65%, rgba(30,30,153,1) 100%)'
 			}}
 		>
 			<div className='flex items-center justify-between w-10/12 mx-auto py-3 text-white font-dosis'>

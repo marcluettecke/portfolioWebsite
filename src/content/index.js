@@ -9,7 +9,8 @@ export default {
 	},
 	header: {
 		img: 'https://i.ibb.co/3Fpnx8Y/headshot-blur.jpg',
-		text: ['Hi!', "I'm Marc.", 'I am a'],
+		// img: 'https://i.ibb.co/2cZ1PD7/headshot-color-transparent.png',
+		text: ['Hey there!', "I'm Marc Luettecke.", "and I'm a"],
 		typical: [
 			'web developer. 📱💻',
 			2000,
@@ -20,6 +21,71 @@ export default {
 		],
 		btnTextLeft: 'Discover more',
 		btnTextRight: 'Download CV'
+	},
+	partners: {
+		title: 'partners',
+		logos: [
+			{
+				img: process.env.PUBLIC_URL + '/assets/partner_logos/subsequent_bw.png',
+				alt: 'subsequent',
+				width: '80',
+				height: '40'
+			},
+			{
+				img: process.env.PUBLIC_URL + '/assets/partner_logos/techlabs_bw.png',
+				alt: 'techlabs',
+				width: '64',
+				height: '32'
+			},
+			{
+				img: process.env.PUBLIC_URL + '/assets/partner_logos/uni_kn.svg',
+				alt: 'uni_kn',
+				width: '64',
+				height: '32'
+			},
+			{
+				img: process.env.PUBLIC_URL + '/assets/partner_logos/naklario_bw.png',
+				alt: 'naklario',
+				width: '64',
+				height: '32'
+			},
+			{
+				img: process.env.PUBLIC_URL + '/assets/partner_logos/maroon_bw.png',
+				alt: 'maroon',
+				width: '32',
+				height: '32'
+			},
+			{
+				img: process.env.PUBLIC_URL + '/assets/partner_logos/utx_bw.png',
+				alt: 'utexas',
+				width: '80',
+				height: '40'
+			},
+			{
+				img: process.env.PUBLIC_URL + '/assets/partner_logos/urbanhive_bw.png',
+				alt: 'urbanhive',
+				width: '64',
+				height: '32'
+			},
+			{
+				img: process.env.PUBLIC_URL + '/assets/partner_logos/loyola_bw.png',
+				alt: 'loyola',
+				width: '64',
+				height: '40'
+			},
+			{
+				img: process.env.PUBLIC_URL + '/assets/partner_logos/uni_heidelberg.png',
+				alt: 'heidelberg',
+				width: '64',
+				height: '40'
+			},
+			{
+				img: process.env.PUBLIC_URL + '/assets/partner_logos/kpmg_bw.png',
+				alt: 'kpmg',
+				width: '48',
+				height: '26'
+			}
+		]
 	},
 	projects: {
 		websites: [

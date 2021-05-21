@@ -24,13 +24,13 @@ const Projects = props => {
 	}
 
 	let header = (
-		<h1 className='text-5xl font-bold mt-10'>
+		<h1 className='text-5xl font-bold mt-5'>
 			<span className='text-indigo-500'>All</span> my past projects
 		</h1>
 	);
 	if (props.category === 'dataScience') {
 		header = (
-			<h1 className='text-5xl font-bold mt-10'>
+			<h1 className='text-5xl font-bold mt-5'>
 				Projects in <span className='text-indigo-500'>Data Science</span>
 			</h1>
 		);
@@ -38,7 +38,7 @@ const Projects = props => {
 
 	if (props.category === 'frontend') {
 		header = (
-			<h1 className='text-5xl font-bold mt-10'>
+			<h1 className='text-5xl font-bold mt-5'>
 				Projects in <span className='text-indigo-500'>Front End Development</span>
 			</h1>
 		);
@@ -46,7 +46,7 @@ const Projects = props => {
 
 	if (props.category === 'practice') {
 		header = (
-			<h1 className='text-5xl font-bold mt-10'>
+			<h1 className='text-5xl font-bold mt-5'>
 				Practice projects for <span className='text-indigo-500'>FrontEndMentor</span>
 			</h1>
 		);
@@ -85,7 +85,7 @@ const Projects = props => {
 	};
 	return (
 		<Fragment>
-			<div className='min-h-screen font-dosis text-center' id='projects'>
+			<div className='min-h-3/4 font-dosis text-center' id='projects'>
 				{header}
 				<div className='mt-10'>
 					{/* <Carousel slides={slides} autoplay={false} interval={5000} /> */}
