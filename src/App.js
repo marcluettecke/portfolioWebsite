@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Navigation from './components/Navigation';
 import IconLabelTabs from './components/IconLabelTabs';
 import Partners from './components/Partners';
+import Testimonials from './components/Testimonials';
 import Stack from './components/Stack';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -31,6 +32,7 @@ function App() {
 			<Header />
 			<IconLabelTabs />
 			<Partners category={'all'} />
+			<Testimonials />
 			<Stack />
 		</ThemeProvider>
 	);

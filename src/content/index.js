@@ -87,6 +87,48 @@ export default {
 			}
 		]
 	},
+	testimonials: {
+		title: 'testimonials',
+		people: [
+			{
+				name: 'Dr. Mehmet Dicle',
+				image: process.env.PUBLIC_URL + '/assets/testimonials_images/dicle.png',
+				job: 'Associate Professor',
+				text: 'Mr. Luettecke is one of the best students I had, we hired him as a finance tutor at our college. He actually had a waiting list. My MBA students are scheduling appointments with him. I am receiving high praises and very positive emails about his teaching.'
+			},
+			{
+				name: 'Karsten Donnay',
+				image: process.env.PUBLIC_URL + '/assets/testimonials_images/donnay.png',
+				job: 'Professor',
+				text: "Mr. Luettecke's way of working is characterized to a very high extent by his systematic approach, sense of responsibility and determination, which lead to excellent solutions. Due to his very high commitment, he always delivers his work results on time and in very good quality at any time."
+			},
+			{
+				name: 'Daniel Demleitner',
+				image: process.env.PUBLIC_URL + '/assets/testimonials_images/demleitner_bw.png',
+				job: 'Senior Manager',
+				text: 'Marc has a very quick perception and is always characterized by very good organizational, analytical and judgmental skills. He has an excellent ability to successfully apply his extensive, in-depth professional knowledge and experience to new situations for the benefit of the team.'
+			},
+			{
+				name: 'John Levendis',
+				image: process.env.PUBLIC_URL + '/assets/testimonials_images/levendis_bw.png',
+				job: 'Professor',
+				text: "I first met Marc when he was taking my Business Statistics class in the Fall of 2011. He was my best student by far. As they say, it wasn't even close. He mastered material so well, in fact, that he would tutor his classmates on statistics. Several of his classmates would not have passed were it not for his help."
+			},
+
+			{
+				name: 'Dr. Ron Christner',
+				image: process.env.PUBLIC_URL + '/assets/testimonials_images/christner.png',
+				job: 'Ex Department Chair',
+				text: 'Marc is very personable and also asked some of the most insightful and challenging questions about Investments and other topics that I have ever encountered in my many years of teaching. In summary Marc is exceptional as a person and a scholar.'
+			},
+			{
+				name: 'Michael Giusti',
+				image: process.env.PUBLIC_URL + '/assets/testimonials_images/giusti_bw.png',
+				job: 'Department Chair / Senior Editor',
+				text: "Marc Luettecke is a model of who I hope to hire in my business office. Marc is personable, he is intelligent, and most importantly, he is reliable. I have worked with Marc for six months now, and during those six months, my only regret is that I didn't meet him soonerin his college career."
+			}
+		]
+	},
 	projects: {
 		websites: [
 			{
