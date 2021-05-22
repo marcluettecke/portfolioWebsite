@@ -23,34 +23,34 @@ const Projects = props => {
 			});
 	}
 
-	let header = (
-		<h1 className='text-5xl font-bold mt-5'>
-			<span className='text-indigo-500'>All</span> my past projects
-		</h1>
-	);
-	if (props.category === 'dataScience') {
-		header = (
-			<h1 className='text-5xl font-bold mt-5'>
-				Projects in <span className='text-indigo-500'>Data Science</span>
-			</h1>
-		);
-	}
+	// let header = (
+	// 	<h1 className='text-5xl font-bold mt-5'>
+	// 		<span className='text-indigo-500'>All</span> my past projects
+	// 	</h1>
+	// );
+	// if (props.category === 'dataScience') {
+	// 	header = (
+	// 		<h1 className='text-5xl font-bold mt-5'>
+	// 			Projects in <span className='text-indigo-500'>Data Science</span>
+	// 		</h1>
+	// 	);
+	// }
 
-	if (props.category === 'frontend') {
-		header = (
-			<h1 className='text-5xl font-bold mt-5'>
-				Projects in <span className='text-indigo-500'>Front End Development</span>
-			</h1>
-		);
-	}
+	// if (props.category === 'frontend') {
+	// 	header = (
+	// 		<h1 className='text-5xl font-bold mt-5'>
+	// 			Projects in <span className='text-indigo-500'>Front End Development</span>
+	// 		</h1>
+	// 	);
+	// }
 
-	if (props.category === 'practice') {
-		header = (
-			<h1 className='text-5xl font-bold mt-5'>
-				Practice projects for <span className='text-indigo-500'>FrontEndMentor</span>
-			</h1>
-		);
-	}
+	// if (props.category === 'practice') {
+	// 	header = (
+	// 		<h1 className='text-5xl font-bold mt-5'>
+	// 			Practice projects for <span className='text-indigo-500'>FrontEndMentor</span>
+	// 		</h1>
+	// 	);
+	// }
 
 	let deviceType;
 	if (isDesktop) {
