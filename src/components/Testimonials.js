@@ -19,6 +19,7 @@ const Testimonials = () => {
 			showStatus={false}
 			autoPlay={true}
 			interval={6000}
+			className='mb-20'
 		>
 			{testimonials}
 			{/* <div>

@@ -1,6 +1,7 @@
 .myCarousel {
 	background: #fafafa;
 	margin-top: -6%;
+	margin-bottom: 10%;
 	width: 54%;
 	margin-left: auto;
 	margin-right: auto;
@@ -9,7 +10,7 @@
 	padding-left: 5%;
 	padding-right: 5%;
 	border: 1px solid #ddd;
-	height: 286px;
+	height: 320px;
 }
 
 .myCarousel h3 {
@@ -69,13 +70,23 @@
 		padding-left: 5%;
 		padding-right: 5%;
 		border: 1px solid #ddd;
-		height: 400;
+		height: 250px;
+	}
+
+	.myCarousel h3 {
+		margin-top: 20px;
 	}
 
 	.myCarousel p {
 		line-height: 26px !important;
-		font-size: 13px;
+		/* font-size: 13px; */
 		font-weight: 200 !important;
 		/* max-height: 67px; */
+	}
+}
+
+@media only screen and (max-width: 530px) {
+	.myCarousel {
+		height: 340px;
 	}
 }

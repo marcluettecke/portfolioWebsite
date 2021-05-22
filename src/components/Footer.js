@@ -5,7 +5,7 @@ import content from '../content/index';
 
 const Footer = props => {
 	return (
-		<div class='footer-basic text-gray-500'>
+		<div className='footer-basic text-gray-500 flex justify-center'>
 			<footer>
 				<div class='social'>
 					<a href='#'>
@@ -21,7 +21,7 @@ const Footer = props => {
 						<FontAwesomeIcon icon={['fab', 'xing']} />
 					</a>
 				</div>
-				<p class='copyright'>{content.footer.text}</p>
+				<p className='copyright max-w-lg'>{content.footer.text}</p>
 			</footer>
 		</div>
 	);
