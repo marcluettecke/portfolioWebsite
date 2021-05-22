@@ -3,6 +3,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { Link as ScrollLink } from 'react-scroll';
 import Typical from 'react-typical';
+import Button from './UI/Button';
 
 import content from '../content/index';
 
@@ -25,7 +26,6 @@ export default function Header() {
 					<LazyLoadImage
 						src={content.header.img}
 						// effect='blur'
-						placeholderSrc={process.env.PUBLIC_URL + '/assets/stack_logos/react.png'}
 					/>
 				</div>
 				<div className='text-white font-dosis text-center md:text-left'>
@@ -52,13 +52,11 @@ export default function Header() {
 					</h1>
 					<div className='flex space-x-4 mb-10'>
 						<ScrollLink to='projects' smooth={true}>
-							<button className='bg-gray-500 hover:bg-gray-400 px-10 py-3 text-xl uppercase mt-10 rounded-lg'>
+							{/* <button className='bg-gray-500 hover:bg-gray-400 px-10 py-3 text-xl uppercase mt-10 rounded-lg'>
 								{content.header.btnTextLeft}
-							</button>
+							</button> */}
+							<Button text={content.header.btnTextLeft} />
 						</ScrollLink>
-						<button className='bg-indigo-500 hover:bg-indigo-400 px-10 py-3 text-xl uppercase mt-10 rounded-lg'>
-							{content.header.btnTextRight}
-						</button>
 					</div>
 				</div>
 			</div>

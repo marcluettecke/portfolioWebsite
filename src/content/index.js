@@ -19,8 +19,7 @@ export default {
 			'financial consultant. 📈',
 			2000
 		],
-		btnTextLeft: 'Discover more',
-		btnTextRight: 'Download CV'
+		btnTextLeft: 'Check out CV'
 	},
 	partners: {
 		title: 'partners',

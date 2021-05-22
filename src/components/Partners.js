@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { isMobile, isDesktop, isTablet } from 'react-device-detect';
+// import { isMobile, isDesktop, isTablet } from 'react-device-detect';
 import PartnerLogo from './UI/PartnerLogo';
 import content from '../content';
 import classes from './Projects.module.css';
@@ -21,16 +21,16 @@ const Partners = props => {
 		);
 	});
 
-	let deviceType;
-	if (isDesktop) {
-		deviceType = 'desktop';
-	}
-	if (isTablet) {
-		deviceType = 'tablet';
-	}
-	if (isMobile) {
-		deviceType = 'mobile';
-	}
+	// let deviceType;
+	// if (isDesktop) {
+	// 	deviceType = 'desktop';
+	// }
+	// if (isTablet) {
+	// 	deviceType = 'tablet';
+	// }
+	// if (isMobile) {
+	// 	deviceType = 'mobile';
+	// }
 
 	const responsive = {
 		desktop: {

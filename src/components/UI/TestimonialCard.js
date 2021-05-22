@@ -3,7 +3,7 @@ import classes from './TestimonialCard.module.css';
 
 const TestimonialCard = props => {
 	return (
-		<div>
+		<div data-aos='fade' data-aos-mirror='true' data-aos-delay='50' data-aos-duration='4000'>
 			<img
 				src={props.image}
 				alt={props.name}

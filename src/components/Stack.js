@@ -13,7 +13,13 @@ export default function Stack() {
 				}
 			}
 		>
-			<div className='container mx-auto max-w-screen-lg'>
+			<div
+				className='container mx-auto max-w-screen-lg'
+				data-aos='fade-up'
+				data-aos-mirror='true'
+				data-aos-delay='200'
+				data-aos-duration='6000'
+			>
 				<div
 					className='flex flex-col items-center justify-around font-dosis'
 					// className='min-h-screen text-white flex flex-col items-center justify-around font-dosis'

@@ -111,6 +111,10 @@ const Projects = props => {
 						itemClass='mb-20 mx-10'
 						className={classes.carousel_container}
 						// focusOnSelect={true}
+						data-aos='fade-up'
+						data-aos-mirror='true'
+						data-aos-delay='200'
+						data-aos-duration='6000'
 					>
 						{slides}
 					</Carousel>

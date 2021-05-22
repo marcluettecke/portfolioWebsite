@@ -17,6 +17,10 @@ function TabPanel(props) {
 			id={`vertical-tabpanel-${index}`}
 			aria-labelledby={`vertical-tab-${index}`}
 			{...other}
+			data-aos='fade-up'
+			data-aos-mirror='true'
+			data-aos-delay='200'
+			data-aos-duration='6000'
 		>
 			{value === index && (
 				// <Box p={3}>
@@ -51,6 +55,10 @@ export default function IconLabelTabs() {
 				textColor='primary'
 				aria-label='icon label tabs example'
 				className='w-full mx-auto md:w-4/5'
+				data-aos='fade-up'
+				data-aos-mirror='true'
+				data-aos-delay='200'
+				data-aos-duration='6000'
 			>
 				<Tab
 					icon={<FontAwesomeIcon icon='globe' />}
