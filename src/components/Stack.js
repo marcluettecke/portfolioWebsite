@@ -6,7 +6,7 @@ import TechLogo from './UI/TechLogo';
 export default function Stack() {
 	return (
 		<div
-			className='min-h-screen'
+			className='mb-20'
 			style={
 				{
 					// background: '#091c29'
@@ -15,19 +15,19 @@ export default function Stack() {
 		>
 			<div className='container mx-auto max-w-screen-lg'>
 				<div
-					className='min-h-screen flex flex-col items-center justify-around font-dosis'
+					className='flex flex-col items-center justify-around font-dosis'
 					// className='min-h-screen text-white flex flex-col items-center justify-around font-dosis'
 					id='stack'
 				>
-					<h1 className='text-5xl font-bold text-center'>Techs I worked with</h1>
+					{/* <h1 className='text-5xl font-bold text-center'>Techs I worked with</h1> */}
 					<div className='flex flex-wrap justify-center mt-10'>
 						{content.stack.tech.map((tech, index) => {
 							return <TechLogo index={index} image={tech.img} alt={tech.alt} />;
 						})}
 					</div>
-					<p className='w-11/12 md:max-w-xl text-xl text-center mt-10'>
+					{/* <p className='w-11/12 md:max-w-xl text-xl text-center mt-10'>
 						{content.stack.desc}
-					</p>
+					</p> */}
 				</div>
 			</div>
 		</div>

@@ -86,13 +86,13 @@ const Projects = props => {
 	return (
 		<Fragment>
 			<div className='min-h-3/4 font-dosis text-center' id='projects'>
-				{header}
+				{/* {header} */}
 				<div className='mt-10'>
 					{/* <Carousel slides={slides} autoplay={false} interval={5000} /> */}
 					<Carousel
 						swipeable={true}
 						draggable={true}
-						showDots={true}
+						showDots={false}
 						responsive={responsive}
 						partialVisbile={deviceType !== 'mobile' ? true : false}
 						centerMode={deviceType === 'mobile' ? true : false}

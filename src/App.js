@@ -3,8 +3,10 @@ import Header from './components/Header';
 import Navigation from './components/Navigation';
 import IconLabelTabs from './components/IconLabelTabs';
 import Partners from './components/Partners';
+import SectionSeparation from './components/UI/SectionSeparation';
 import Testimonials from './components/Testimonials';
 import Stack from './components/Stack';
+import Footer from './components/Footer';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
@@ -30,10 +32,15 @@ function App() {
 		<ThemeProvider theme={theme}>
 			<Navigation />
 			<Header />
+			<SectionSeparation text={'Past projects'} />
 			<IconLabelTabs />
+			<SectionSeparation text={'Industry partners'} />
 			<Partners category={'all'} />
-			<Testimonials />
+			<SectionSeparation text={'Tech Stack'} />
 			<Stack />
+			<SectionSeparation text={'Testimonials'} />
+			<Testimonials />
+			<Footer />
 		</ThemeProvider>
 	);
 }

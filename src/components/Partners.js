@@ -49,10 +49,11 @@ const Partners = props => {
 	return (
 		<Fragment>
 			<div className='min-h-1/4 font-dosis text-center'>
-				<h2>Successful callobarions with industry and academic partners</h2>
-				<div className='mt-10'>
+				{/* <h2>Successful callobarions with industry and academic partners</h2> */}
+				<div>
+					{/* <div className='mt-10'> */}
 					<Carousel
-						swipeable={false}
+						swipeable={true}
 						draggable={false}
 						showDots={false}
 						responsive={responsive}
