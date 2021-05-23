@@ -8,7 +8,7 @@ const Footer = props => {
 		<div className='footer-basic text-gray-500 flex justify-center'>
 			<footer>
 				<div
-					class='social'
+					className='social'
 					data-aos='fade-up'
 					data-aos-mirror='true'
 					// data-aos-delay='200'

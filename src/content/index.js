@@ -10,16 +10,18 @@ export default {
 	header: {
 		img: 'https://i.ibb.co/3Fpnx8Y/headshot-blur.jpg',
 		// img: 'https://i.ibb.co/2cZ1PD7/headshot-color-transparent.png',
-		text: ['Hey there!', "I'm Marc Luettecke.", "and I'm a"],
+		text: ['Hey there!', "I'm Marc Luettecke,", "and I'm a"],
 		typical: [
 			'web developer. 📱💻',
 			2000,
 			'data scientist. 💡',
 			2000,
 			'financial consultant. 📈',
+			2000,
+			'startup founder. 🚀',
 			2000
 		],
-		btnTextLeft: 'Check out CV'
+		btnTextLeft: 'Get CV'
 	},
 	partners: {
 		title: 'partners',

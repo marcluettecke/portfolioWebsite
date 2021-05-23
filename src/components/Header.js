@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-import { Link as ScrollLink } from 'react-scroll';
+// import { Link as ScrollLink } from 'react-scroll';
 import Typical from 'react-typical';
 import Button from './UI/Button';
 
@@ -50,13 +50,18 @@ export default function Header() {
 							className='inline-block'
 						/>
 					</h1>
-					<div className='flex space-x-4 mb-10'>
-						<ScrollLink to='projects' smooth={true}>
-							{/* <button className='bg-gray-500 hover:bg-gray-400 px-10 py-3 text-xl uppercase mt-10 rounded-lg'>
+					<div className='flex self-start space-x-4 mb-10'>
+						{/* <ScrollLink to='#' smooth={true}> */}
+						<div>
+							<Button
+								linkTo={'https://cvmarcluettecke.netlify.app/'}
+								text={content.header.btnTextLeft}
+							/>
+						</div>
+						{/* <button className='bg-gray-500 hover:bg-gray-400 px-10 py-3 text-xl uppercase mt-10 rounded-lg'>
 								{content.header.btnTextLeft}
 							</button> */}
-							<Button text={content.header.btnTextLeft} />
-						</ScrollLink>
+						{/* </ScrollLink> */}
 					</div>
 				</div>
 			</div>
