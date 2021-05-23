@@ -1,12 +1,26 @@
 import React from 'react';
 import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Button from './UI/Button';
 import content from '../content/index';
 
 const Footer = props => {
 	return (
 		<div className='footer-basic text-gray-500 flex justify-center'>
 			<footer>
+				<div
+					className='mb-10'
+					data-aos='fade-up'
+					data-aos-mirror='true'
+					// data-aos-delay='200'
+					data-aos-duration='3000'
+				>
+					<Button
+						linkTo={'https://cvmarcluettecke.netlify.app/'}
+						text={content.footer.buttonText}
+						width={content.footer.buttonTwWidth}
+					/>
+				</div>
 				<div
 					className='social'
 					data-aos='fade-up'
@@ -33,6 +47,7 @@ const Footer = props => {
 						<FontAwesomeIcon icon={['fab', 'xing']} />
 					</a>
 				</div>
+
 				<p className='copyright max-w-lg'>{content.footer.text}</p>
 			</footer>
 		</div>

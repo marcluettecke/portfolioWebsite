@@ -21,7 +21,8 @@ export default {
 			'startup founder. 🚀',
 			2000
 		],
-		btnTextLeft: 'Get CV'
+		btnTextLeft: 'Get CV',
+		btnTwWidth: '40'
 	},
 	partners: {
 		title: 'partners',
@@ -291,6 +292,8 @@ export default {
 		desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only`
 	},
 	footer: {
+		buttonText: 'Get in touch',
+		buttonTwWidth: '56',
 		text: 'This website was built using React.js and Tailwind.css. While inspired by other websites, it is fully my own work, so if you end up using it or parts of it, any reference would be appreciated | Marc Luettecke © 2021'
 	}
 };

@@ -52,10 +52,11 @@ export default function Header() {
 					</h1>
 					<div className='flex self-start space-x-4 mb-10'>
 						{/* <ScrollLink to='#' smooth={true}> */}
-						<div>
+						<div className='mt-10'>
 							<Button
 								linkTo={'https://cvmarcluettecke.netlify.app/'}
 								text={content.header.btnTextLeft}
+								width={content.header.btnTwWidth}
 							/>
 						</div>
 						{/* <button className='bg-gray-500 hover:bg-gray-400 px-10 py-3 text-xl uppercase mt-10 rounded-lg'>
