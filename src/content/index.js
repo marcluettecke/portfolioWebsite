@@ -295,5 +295,16 @@ export default {
 		buttonText: 'Get in touch',
 		buttonTwWidth: '56',
 		text: 'This website was built using React.js and Tailwind.css. While inspired by other websites, it is fully my own work, so if you end up using it or parts of it, any reference would be appreciated | Marc Luettecke © 2021'
+	},
+	contactForm: {
+		name: 'contactForm',
+		contactInfo: {
+			email: 'marc.luettecke1@gmail.com',
+			address: 'Hamm | Germany',
+			phone: '+49 176 21883495'
+		},
+		freeText: 'Fill in the form and I will get back to you within 24 hours.',
+		buttonText: 'Send Message',
+		buttonTwWidth: '56'
 	}
 };

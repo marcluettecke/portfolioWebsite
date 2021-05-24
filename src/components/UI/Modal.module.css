@@ -1,0 +1,70 @@
+.backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 20;
+	background-color: transparent;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal {
+	position: fixed;
+	top: 15vh;
+	left: 5%;
+	/* width: 1000px; */
+	width: 85%;
+	/* background-color: rgba(255, 255, 255, 0.8); */
+	background-color: rgba(0, 0, 0, 0.85);
+	padding: 10px;
+	border-radius: 15px;
+	box-shadow: 0 10px 33px 0 rgba(0, 0, 0, 0.75);
+	z-index: 30;
+	animation: slide-down 300ms ease-out forwards;
+	overflow: hidden;
+	display: flex;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+@supports ((-webkit-backdrop-filter: blur(15px)) or (backdrop-filter: blur(15px))) {
+	.modal {
+		/* background-color: rgba(255, 255, 255, 0.4); */
+		background-color: rgba(99, 102, 241, 0.2);
+
+		background-image: linear-gradient(
+			to bottom right,
+			rgba(255, 255, 255, 0.2),
+			rgba(255, 255, 255, 0)
+		);
+		backdrop-filter: blur(15px);
+		-webkit-backdrop-filter: blur(15px);
+	}
+}
+
+/* if backdrop support: very transparent and blurred */
+@supports ((-webkit-backdrop-filter: blur(2em)) or (backdrop-filter: blur(2em))) {
+	.backdrop-blur {
+		background-color: rgba(255, 255, 255, 0.5);
+		-webkit-backdrop-filter: blur(2em);
+		backdrop-filter: blur(2em);
+	}
+}
+
+@media (min-width: 768px) {
+	.modal {
+		width: 90%;
+		/* left: calc(50% - 40rem); */
+	}
+}
+
+@keyframes slide-down {
+	from {
+		opacity: 0;
+		transform: translateY(-3rem);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}

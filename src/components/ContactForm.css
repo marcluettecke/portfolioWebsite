@@ -1,0 +1,155 @@
+.form-container {
+	display: flex;
+}
+.contact_info {
+	background-color: rgba(99, 102, 241, 1);
+	flex: 0 1 40%;
+	border-radius: 15px 0 0 15px;
+	padding: 40px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+}
+
+.contact_heading {
+	font-size: 2rem;
+	font-weight: 500;
+	/* margin-top: 0; */
+	margin: 0;
+}
+
+.contact_text {
+	font-size: 1.2rem;
+	color: rgba(255, 255, 255, 0.7);
+	font-weight: 300;
+	margin-bottom: 2rem;
+}
+
+.icon_text {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+.icon {
+	flex: 0 0 20px;
+	font-size: 1.8rem;
+	margin-right: 2rem;
+}
+
+.contact_detail_text {
+	font-size: 1.3rem;
+	font-weight: 300;
+}
+
+.social_media {
+	display: flex;
+	width: 50%;
+	justify-content: space-between;
+}
+
+.icon_circle {
+	display: flex;
+	flex: 0 0 45px;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	border-radius: 50%;
+	transition: 0.3s all ease-in-out;
+}
+
+.icon_circle:hover {
+	background: rgba(255, 255, 255, 0.4);
+}
+
+.social_media_icon {
+	font-size: 25px;
+}
+form {
+	padding: 40px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr min-content;
+	grid-template-areas:
+		'first last'
+		'email phone'
+		'message message'
+		'. button';
+}
+
+#first_name_field {
+	grid-area: first;
+}
+#last_name_field {
+	grid-area: last;
+}
+#phone_field {
+	grid-area: phone;
+}
+#email_field {
+	grid-area: email;
+}
+#message_field {
+	grid-area: message;
+}
+#button_field {
+	grid-area: button;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	/* flex: 0 0 75%; */
+	padding-right: 40px;
+}
+.form-group label {
+	font-size: 1.1rem;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 0.6);
+	margin-bottom: 1rem;
+}
+
+.form-group:nth-child(2),
+.form-group:nth-child(4),
+.form-group:nth-child(5) {
+	padding-right: 0;
+}
+
+.form-group input[type='text'],
+input[type='email'],
+input[type='tel'],
+textarea {
+	margin-bottom: 2rem;
+	background: transparent;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+	padding: 10px;
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: white;
+	transition: all 0.3s ease-in-out;
+}
+
+.form-group input[type='text']:focus,
+input[type='email']:focus,
+input[type='tel']:focus,
+,
+textarea:focus {
+	border: none;
+	border-bottom: 2px solid rgba(99, 102, 241, 1);
+}
+
+.message {
+	margin-top: 5rem;
+}
+.form-group .solo {
+	color: white;
+	padding: 0;
+}

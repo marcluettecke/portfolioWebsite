@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
 import IconLabelTabs from './components/IconLabelTabs';
@@ -7,6 +7,7 @@ import SectionSeparation from './components/UI/SectionSeparation';
 import Testimonials from './components/Testimonials';
 import Stack from './components/Stack';
 import Footer from './components/Footer';
+import ContactForm from './components/ContactForm';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -19,9 +20,10 @@ import {
 	faDesktop,
 	faDumbbell,
 	faChevronUp,
-	faEnvelope,
-	faPhone
+	faPhone,
+	faMapMarkerAlt
 } from '@fortawesome/free-solid-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons';
 import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
 const theme = createMuiTheme({
@@ -30,9 +32,31 @@ const theme = createMuiTheme({
 	}
 });
 
-library.add(fab, faGlobe, faChartBar, faDesktop, faDumbbell, faChevronUp, faEnvelope, faPhone);
+library.add(
+	fab,
+	far,
+	faGlobe,
+	faChartBar,
+	faDesktop,
+	faDumbbell,
+	faChevronUp,
+	faPhone,
+	faMapMarkerAlt
+);
 
 const App = () => {
+	const [formIsShown, setFormIsShown] = useState(false);
+
+	const hideFormHandler = () => {
+		setFormIsShown(false);
+	};
+	const showFormHandler = () => {
+		setFormIsShown(true);
+	};
+	const linkToCvHandler = () => {
+		window.open('https://cvmarcluettecke.netlify.app/');
+	};
+
 	useEffect(() => {
 		AOS.init({
 			duration: 2000
@@ -40,8 +64,9 @@ const App = () => {
 	}, []);
 	return (
 		<ThemeProvider theme={theme}>
+			{formIsShown && <ContactForm onClose={hideFormHandler} />}
 			<Navigation />
-			<Header />
+			<Header onClose={hideFormHandler} onLinkToCv={linkToCvHandler} />
 			<SectionSeparation text={'Past projects'} />
 			<IconLabelTabs />
 			<SectionSeparation text={'Industry partners'} />
@@ -53,7 +78,7 @@ const App = () => {
 			<Stack />
 			<SectionSeparation text={'Testimonials'} />
 			<Testimonials />
-			<Footer />
+			<Footer onShowForm={showFormHandler} />
 		</ThemeProvider>
 	);
 };
