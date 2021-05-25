@@ -2,10 +2,7 @@ export default {
 	nav: {
 		// logo: 'ML',
 		logo: 'https://i.ibb.co/T40gXmx/White-logo-no-background.png',
-		links: [
-			{ text: 'Work', to: 'mywork' },
-			{ text: 'Contact', to: 'mycontact' }
-		]
+		links: [{ text: 'Contact', to: 'mycontact' }]
 	},
 	header: {
 		img: 'https://i.ibb.co/3Fpnx8Y/headshot-blur.jpg',

@@ -121,8 +121,8 @@ form {
 }
 
 .form-group input[type='text'],
-input[type='email'],
-input[type='tel'],
+.form-group input[type='email'],
+.form-group input[type='tel'],
 textarea {
 	margin-bottom: 2rem;
 	background: transparent;
@@ -138,11 +138,23 @@ textarea {
 }
 
 .form-group input[type='text']:focus,
-input[type='email']:focus,
-input[type='tel']:focus,
+.from-group input[type='email']:focus,
+.form-group input[type='tel']:focus,
 textarea:focus {
 	border: none;
 	border-bottom: 2px solid rgba(99, 102, 241, 1);
+}
+
+.invalid input[type='text'],
+.invalid input[type='email'],
+.invalid textarea {
+	border-bottom: 2px solid #b40e0e;
+}
+
+.invalid input[type='text']:focus,
+.invalid input[type='email']:focus,
+.invalid textarea {
+	border-color: #ff8800;
 }
 
 .message {
@@ -243,14 +255,6 @@ textarea:focus {
 		justify-content: space-between;
 	}
 
-	/* .icon_circle {
-		display: flex;
-		flex: 0 0 45px;
-		justify-content: center;
-		align-items: center;
-		height: 40px;
-	} */
-
 	.contact_info {
 		border-radius: 15px 15px 0 0;
 		padding: 15px;
@@ -259,4 +263,16 @@ textarea:focus {
 		justify-content: space-between;
 		align-items: center;
 	}
+}
+
+.error-text {
+	margin-top: -1.5rem;
+	margin-bottom: 1rem;
+	color: #b40e0e;
+}
+
+.error-text-message {
+	/* margin-top: 1rem; */
+	/* margin-bottom: 0; */
+	color: #b40e0e;
 }

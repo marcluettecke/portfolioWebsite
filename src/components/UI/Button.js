@@ -6,7 +6,13 @@ const Button = props => {
 		// <a href={props.linkTo}>
 		<div className={`button-container-1 w-${props.width}`}>
 			<span className='mas'>{props.text}</span>
-			<button id='work' type='button' name='Hover' onClick={props.onClick}>
+			<button
+				id='work'
+				type='button'
+				name='Hover'
+				onClick={props.onClick}
+				disabled={props.disabled}
+			>
 				{props.text}
 			</button>
 		</div>

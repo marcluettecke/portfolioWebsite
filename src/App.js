@@ -65,7 +65,7 @@ const App = () => {
 	return (
 		<ThemeProvider theme={theme}>
 			{formIsShown && <ContactForm onClose={hideFormHandler} />}
-			<Navigation />
+			<Navigation onShowForm={showFormHandler} />
 			<Header onClose={hideFormHandler} onLinkToCv={linkToCvHandler} />
 			<SectionSeparation text={'Past projects'} />
 			<IconLabelTabs />

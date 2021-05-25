@@ -1,7 +1,8 @@
 import React from 'react';
 import content from '../content';
+import './Navigation.css';
 
-export default function Navigation() {
+const Navigation = props => {
 	return (
 		<div
 			style={{
@@ -23,7 +24,12 @@ export default function Navigation() {
 				<div>
 					{content.nav.links.map((link, index) => {
 						return (
-							<span key={index} className='text-xl mr-4'>
+							<span
+								key={index}
+								className='text-xl mr-4 hover:text-indigo-500'
+								onClick={props.onShowForm}
+								id='contact_form_link'
+							>
 								{link.text}
 							</span>
 						);
@@ -32,4 +38,5 @@ export default function Navigation() {
 			</div>
 		</div>
 	);
-}
+};
+export default Navigation;

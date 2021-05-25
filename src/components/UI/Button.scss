@@ -56,6 +56,16 @@
 			animation: ani 0.7s steps(22) forwards;
 		}
 	}
+
+	button:disabled,
+	button:disabled:hover,
+	button:disabled:active {
+		background-color: #ccc;
+		color: rgb(161, 161, 161);
+		border-color: #ccc;
+		cursor: not-allowed;
+		animation: none;
+	}
 }
 
 .mas {
