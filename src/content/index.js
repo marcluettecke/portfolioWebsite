@@ -6,6 +6,7 @@ export default {
 	},
 	header: {
 		img: 'https://i.ibb.co/3Fpnx8Y/headshot-blur.jpg',
+		imgAlt: 'profile Picture Marc Luettecke',
 		// img: 'https://i.ibb.co/2cZ1PD7/headshot-color-transparent.png',
 		text: ['Hey there!', "I'm Marc Luettecke,", "and I'm a"],
 		typical: [

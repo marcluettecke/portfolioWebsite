@@ -25,7 +25,7 @@ const Testimonials = () => {
 			showThumbs={false}
 			showStatus={false}
 			autoPlay={true}
-			interval={6000}
+			interval={8000}
 			className='mb-20'
 		>
 			{testimonials}

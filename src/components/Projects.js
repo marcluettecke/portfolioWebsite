@@ -54,7 +54,7 @@ const Projects = () => {
 						removeArrowOnDeviceType={['mobile']}
 						// deviceType={deviceType}
 						dotListClass='custom-dot-list-style'
-						itemClass='mb-20'
+						// itemClass='mb-20'
 						className='carousel_container'
 					>
 						{slides}

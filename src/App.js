@@ -72,7 +72,7 @@ const App = () => {
 			<Projects category={'all'} />
 			<SectionSeparation text={'Partners'} direction={'right'} />
 			<Partners category={'all'} />
-			<SectionSeparation text={'Tech Stack'} direction={'left'} />
+			<SectionSeparation text={'Technologies'} direction={'left'} />
 
 			<Stack />
 			<SectionSeparation text={'Testimonials'} direction={'right'} />

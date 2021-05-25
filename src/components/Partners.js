@@ -20,14 +20,10 @@ const Partners = props => {
 
 	return (
 		<div className='partners_container'>
-			<div className='pr-20 ml-10'>
-				<img
-					src={content.partners.layoutImage}
-					alt='Test'
-					className='layoutImage_partners'
-				/>
-			</div>
-			<div className='flex flex-wrap max-w-screen-lg justify-center brands'>{slides}</div>
+			{/* <div className='pr-20 ml-10'> */}
+			<img src={content.partners.layoutImage} alt='Test' className='layoutImage_partners' />
+			{/* </div> */}
+			<div className='flex flex-wrap max-w-screen-xl justify-center brands'>{slides}</div>
 		</div>
 	);
 };

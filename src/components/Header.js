@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-// import { Link as ScrollLink } from 'react-scroll';
 import Typical from 'react-typical';
 import Button from './UI/Button';
 
@@ -18,15 +16,11 @@ export default function Header(props) {
 			className='min-h-screen flex items-center justify-center'
 			style={{
 				background: '#091c29'
-				// background: 'linear-gradient(90deg, rgba(4,0,64,1) 65%, rgba(30,30,153,1) 100%)'
 			}}
 		>
-			<div className='w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between'>
-				<div className='w-full md:w-2/5'>
-					<LazyLoadImage
-						src={content.header.img}
-						// effect='blur'
-					/>
+			<div className='w-9/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between'>
+				<div className='w-full md:w-2/5 flex justify-center '>
+					<img src={content.header.img} alt={content.header.imgAlt} />
 				</div>
 				<div className='text-white font-dosis text-center md:text-left'>
 					<h2
@@ -51,7 +45,6 @@ export default function Header(props) {
 						/>
 					</h1>
 					<div className='flex justify-center sm:inline-block  space-x-4 mb-10'>
-						{/* <ScrollLink to='#' smooth={true}> */}
 						<div className='mt-10'>
 							<Button
 								linkTo={'https://cvmarcluettecke.netlify.app/'}
@@ -60,10 +53,6 @@ export default function Header(props) {
 								onClick={props.onLinkToCv}
 							/>
 						</div>
-						{/* <button className='bg-gray-500 hover:bg-gray-400 px-10 py-3 text-xl uppercase mt-10 rounded-lg'>
-								{content.header.btnTextLeft}
-							</button> */}
-						{/* </ScrollLink> */}
 					</div>
 				</div>
 			</div>

@@ -7,23 +7,21 @@ import TechLogo from './UI/TechLogo';
 export default function Stack() {
 	return (
 		<div className='stack_container'>
-			<div className='mx-auto max-w-screen-lg' id='stack'>
-				<div className='flex flex-col items-center justify-around font-dosis'>
-					<div className='flex flex-wrap justify-center mt-10'>
-						{content.stack.tech.map((tech, index) => {
-							return (
-								<TechLogo
-									index={index}
-									image={tech.img}
-									alt={tech.alt}
-									key={tech.alt}
-								/>
-							);
-						})}
-					</div>
+			<div className='flex flex-col justify-center' id='stack_logos'>
+				<div className='flex flex-wrap justify-center align-middle'>
+					{content.stack.tech.map((tech, index) => {
+						return (
+							<TechLogo
+								index={index}
+								image={tech.img}
+								alt={tech.alt}
+								key={tech.alt}
+							/>
+						);
+					})}
 				</div>
 			</div>
-			<div className='pr-20 ml-10'>
+			<div className='pr-20 ml-10 layoutImage_stack_container'>
 				<img src={content.stack.layoutImage} alt='Test' className='layoutImage_stack' />
 			</div>
 		</div>
