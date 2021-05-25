@@ -1,0 +1,33 @@
+.stack_container {
+	/* display: grid; */
+	/* grid-template-columns: repeat(2, minmax(0, 1fr)); */
+	display: flex;
+	gap: 3rem;
+}
+
+#stack {
+	width: 50%;
+	margin-left: 5vw;
+}
+
+.layoutImage_stack {
+	width: 35vw;
+	height: auto;
+	display: inline-block;
+}
+
+@media screen and (max-width: 1300px) {
+	/* .projects_container {
+		grid-template-columns: 1fr;
+	} */
+	#stack {
+		width: 90%;
+	}
+	.layoutImage_stack {
+		display: none;
+	}
+
+	/* .brands {
+		margin: 0 10rem 0 2rem;
+	} */
+}

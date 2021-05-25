@@ -1,0 +1,16 @@
+.logo_img {
+	filter: grayscale(100%);
+}
+
+.logo_img:hover {
+	transition: all 0.4s ease-in-out;
+	transform: translateY(-7px);
+	box-shadow: 3px rgba(255, 255, 255, 0.3);
+	filter: none;
+}
+
+@media screen and (max-width: 1300px) {
+	.logo_img {
+		filter: none;
+	}
+}

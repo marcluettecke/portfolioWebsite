@@ -270,11 +270,16 @@ export default {
 	},
 
 	stack: {
+		layoutImage: process.env.PUBLIC_URL + '/assets/layoutImages/Coding2.png',
 		title: 'Stack',
 		tech: [
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/react.png',
 				alt: 'react'
+			},
+			{
+				img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
+				alt: 'git'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/angular.png',
@@ -283,6 +288,10 @@ export default {
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/postgres.png',
 				alt: 'postgres'
+			},
+			{
+				img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
+				alt: 'html'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/mongo.png',
@@ -297,8 +306,16 @@ export default {
 				alt: 'tailwind'
 			},
 			{
+				img: process.env.PUBLIC_URL + '/assets/stack_logos/ionic.png',
+				alt: 'ionic'
+			},
+			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/python.png',
 				alt: 'python'
+			},
+			{
+				img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
+				alt: 'css'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/tensorflow.svg',
