@@ -140,7 +140,6 @@ textarea {
 .form-group input[type='text']:focus,
 input[type='email']:focus,
 input[type='tel']:focus,
-,
 textarea:focus {
 	border: none;
 	border-bottom: 2px solid rgba(99, 102, 241, 1);
@@ -148,8 +147,116 @@ textarea:focus {
 
 .message {
 	margin-top: 5rem;
+	color: white;
 }
 .form-group .solo {
 	color: white;
 	padding: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+	.contact_info {
+		flex: 0 1 75%;
+		padding: 25px;
+	}
+
+	.icon {
+		font-size: 1.2rem;
+		margin-right: 1.5rem;
+	}
+
+	.contact_detail_text {
+		font-size: 1rem;
+		font-weight: 400;
+	}
+
+	form {
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(6, 1fr);
+		grid-template-areas:
+			'first'
+			'last'
+			'email'
+			'phone'
+			'message'
+			'button';
+		overflow: scroll;
+	}
+
+	.form-group {
+		padding-right: 0;
+	}
+
+	.form-group label {
+		font-size: 1rem;
+		font-weight: 400;
+		margin-bottom: 0.4rem;
+	}
+
+	.form-group input[type='text'],
+	input[type='email'],
+	input[type='tel'],
+	textarea {
+		margin-bottom: 1.7rem;
+		padding: 8px;
+		font-size: 1.3rem;
+		font-weight: 400;
+	}
+
+	#button_field {
+		margin-top: 1rem;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.form-container {
+		flex-direction: column;
+		width: 81.5vw;
+	}
+
+	.contact_heading {
+		font-size: 1.5rem;
+		font-weight: 400;
+		margin-bottom: 1rem;
+	}
+
+	.contact_text {
+		display: none;
+	}
+
+	.icon_text {
+		margin-bottom: 0.5rem;
+		align-self: flex-start;
+	}
+
+	.icon {
+		font-size: 1.5rem;
+		margin-right: 1.7rem;
+	}
+
+	.contact_detail_text {
+		font-size: 1.1rem;
+		font-weight: 300;
+	}
+
+	.social_media {
+		justify-content: space-between;
+	}
+
+	/* .icon_circle {
+		display: flex;
+		flex: 0 0 45px;
+		justify-content: center;
+		align-items: center;
+		height: 40px;
+	} */
+
+	.contact_info {
+		border-radius: 15px 15px 0 0;
+		padding: 15px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
 }

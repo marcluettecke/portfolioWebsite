@@ -105,7 +105,10 @@ const ContactForm = props => {
 					</div>
 					<div className='form-group' id='message_field'>
 						<label htmlFor='message'>Message</label>
-						<textarea id='message' />
+						<textarea
+							style={{ fontSize: '1.5rem', color: 'white', fontWeight: '500' }}
+							id='message'
+						/>
 					</div>
 					<div id='button_field' className='right'>
 						<Button

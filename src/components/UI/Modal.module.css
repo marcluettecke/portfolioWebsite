@@ -12,10 +12,8 @@
 .modal {
 	position: fixed;
 	top: 15vh;
-	left: 5%;
-	/* width: 1000px; */
-	width: 85%;
-	/* background-color: rgba(255, 255, 255, 0.8); */
+	margin: 0 auto;
+	left: 12vw;
 	background-color: rgba(0, 0, 0, 0.85);
 	padding: 10px;
 	border-radius: 15px;
@@ -29,7 +27,6 @@
 
 @supports ((-webkit-backdrop-filter: blur(15px)) or (backdrop-filter: blur(15px))) {
 	.modal {
-		/* background-color: rgba(255, 255, 255, 0.4); */
 		background-color: rgba(99, 102, 241, 0.2);
 
 		background-image: linear-gradient(
@@ -53,8 +50,23 @@
 
 @media (min-width: 768px) {
 	.modal {
-		width: 90%;
+		/* width: 90%; */
 		/* left: calc(50% - 40rem); */
+	}
+}
+
+@media (max-width: 1200px) {
+	.modal {
+		top: 2vh;
+		max-height: 100%;
+		overflow-y: auto;
+		left: 10vw;
+	}
+}
+
+@media (max-width: 1600px) {
+	.modal {
+		left: 3vw;
 	}
 }
 
