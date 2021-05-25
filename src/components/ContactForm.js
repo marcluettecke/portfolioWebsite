@@ -3,6 +3,7 @@ import Modal from './UI/Modal';
 import './ContactForm.css';
 import content from '../content/index';
 import Button from './UI/Button';
+import Swal from 'sweetalert2';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import useInput from '../hooks/user-input';
 
@@ -84,20 +85,25 @@ const ContactForm = props => {
 		) {
 			return;
 		}
-
 		generateContactNumber();
-		sendForm('default_service', 'template_330lnwi', '#contact_form').then(
+		sendForm('default_service', 'template_330lnwiX', '#contact_form').then(
 			function (response) {
+				Swal.fire({
+					icon: 'success',
+					title: content.contactModal.text.successTitle,
+					text: content.contactModal.text.successText
+				});
 				console.log('SUCCESS!', response.status, response.text);
 			},
 			function (error) {
+				Swal.fire({
+					icon: 'error',
+					title: content.contactModal.text.failedTitle,
+					text: content.contactModal.text.failedText
+				});
 				console.log('FAILED...', error);
 			}
 		);
-		// console.log(enteredFirstName);
-		// console.log(enteredLastName);
-		// console.log(enteredEmail);
-		// console.log(enteredMessage);
 
 		resetFirstName();
 		resetLastName();

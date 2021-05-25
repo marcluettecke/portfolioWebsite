@@ -23,65 +23,83 @@ export default {
 	},
 	partners: {
 		title: 'partners',
+		layoutImage: process.env.PUBLIC_URL + '/assets/layoutImages/Creative_process_SVG.svg',
 		logos: [
 			{
-				img: process.env.PUBLIC_URL + '/assets/partner_logos/subsequent_bw.png',
+				img: process.env.PUBLIC_URL + '/assets/partner_logos/subsequent_transparent.png',
 				alt: 'subsequent',
-				width: '80',
-				height: '40'
+				widthMd: '240',
+				widthLg: '320',
+				height: '60'
 			},
 			{
-				img: process.env.PUBLIC_URL + '/assets/partner_logos/techlabs_bw.png',
+				img: process.env.PUBLIC_URL + '/assets/partner_logos/techlabs.png',
 				alt: 'techlabs',
-				width: '64',
+				widthMd: '200',
+				widthLg: '300',
 				height: '32'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/partner_logos/uni_kn.svg',
 				alt: 'uni_kn',
-				width: '64',
+				widthMd: '180',
+				widthLg: '280',
 				height: '32'
 			},
 			{
-				img: process.env.PUBLIC_URL + '/assets/partner_logos/naklario_bw.png',
+				img: process.env.PUBLIC_URL + '/assets/partner_logos/naklario.png',
 				alt: 'naklario',
-				width: '64',
+				widthMd: '160',
+				widthLg: '280',
 				height: '32'
 			},
 			{
-				img: process.env.PUBLIC_URL + '/assets/partner_logos/maroon_bw.png',
+				img: process.env.PUBLIC_URL + '/assets/partner_logos/maroon.png',
 				alt: 'maroon',
-				width: '32',
+				widthMd: '80',
+				widthLg: '160',
 				height: '32'
 			},
 			{
-				img: process.env.PUBLIC_URL + '/assets/partner_logos/utx_bw.png',
+				img: process.env.PUBLIC_URL + '/assets/partner_logos/utx.png',
 				alt: 'utexas',
-				width: '80',
+				widthMd: '220',
+				widthLg: '300',
 				height: '40'
 			},
 			{
-				img: process.env.PUBLIC_URL + '/assets/partner_logos/urbanhive_bw.png',
+				img: process.env.PUBLIC_URL + '/assets/partner_logos/urbanhive.png',
 				alt: 'urbanhive',
-				width: '64',
+				widthMd: '220',
+				widthLg: '300',
 				height: '32'
 			},
 			{
-				img: process.env.PUBLIC_URL + '/assets/partner_logos/loyola_bw.png',
+				img: process.env.PUBLIC_URL + '/assets/partner_logos/loyola.png',
 				alt: 'loyola',
-				width: '64',
+				widthMd: '200',
+				widthLg: '280',
 				height: '40'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/partner_logos/uni_heidelberg.png',
 				alt: 'heidelberg',
-				width: '64',
+				widthMd: '160',
+				widthLg: '240',
 				height: '40'
 			},
 			{
-				img: process.env.PUBLIC_URL + '/assets/partner_logos/kpmg_bw.png',
+				img: process.env.PUBLIC_URL + '/assets/partner_logos/kpmg_transparent.png',
 				alt: 'kpmg',
-				width: '48',
+				widthMd: '160',
+				widthLg: '200',
+				height: '26'
+			},
+			{
+				img: process.env.PUBLIC_URL + '/assets/partner_logos/correlaid_transparent.png',
+				alt: 'correlaid',
+				widthMd: '180',
+				widthLg: '260',
 				height: '26'
 			}
 		]
@@ -303,5 +321,15 @@ export default {
 		freeText: 'Fill in the form and I will get back to you within 24 hours.',
 		buttonText: 'Send Message',
 		buttonTwWidth: '56'
+	},
+	contactModal: {
+		name: 'contactModal',
+		text: {
+			successTitle: 'Message sent!',
+			successText: 'I will get back to you ASAP',
+			failedTitle: 'Oops...',
+			failedText:
+				'Something went wrong! Please try again later, or contact me over any of the listed channels'
+		}
 	}
 };

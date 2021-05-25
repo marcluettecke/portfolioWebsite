@@ -69,7 +69,7 @@ const App = () => {
 			<Header onClose={hideFormHandler} onLinkToCv={linkToCvHandler} />
 			<SectionSeparation text={'Past projects'} />
 			<IconLabelTabs />
-			<SectionSeparation text={'Industry partners'} />
+			<SectionSeparation text={'Partners'} />
 			<Partners category={'all'} />
 			<SectionSeparation text={'Tech Stack'} />
 			{/* <div data-aos='fade-up' className='max-w-4xl h-15 bg-blue-400'>

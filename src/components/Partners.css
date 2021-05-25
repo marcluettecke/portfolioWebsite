@@ -1,0 +1,23 @@
+.partners_container {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.layoutImage {
+	width: 110%;
+	height: auto;
+}
+
+@media screen and (max-width: 1300px) {
+	.partners_container {
+		grid-template-columns: 1fr;
+	}
+
+	.layoutImage {
+		display: none;
+	}
+
+	.brands {
+		margin: 0 10rem 0 2rem;
+	}
+}
