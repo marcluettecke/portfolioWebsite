@@ -12,9 +12,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const useStyles = makeStyles({
 	root: {
 		minWidth: 300,
-		maxWidth: 600,
 		backgroundColor: 'rgb(245, 245, 245)',
-		fontFamily: 'Dosis'
+		fontFamily: 'Dosis',
+		margin: '0 20px'
 	}
 });
 

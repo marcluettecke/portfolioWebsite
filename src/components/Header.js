@@ -50,7 +50,7 @@ export default function Header(props) {
 							className='inline-block'
 						/>
 					</h1>
-					<div className='flex self-start space-x-4 mb-10'>
+					<div className='flex justify-center sm:inline-block  space-x-4 mb-10'>
 						{/* <ScrollLink to='#' smooth={true}> */}
 						<div className='mt-10'>
 							<Button

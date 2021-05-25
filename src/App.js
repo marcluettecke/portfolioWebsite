@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
-import IconLabelTabs from './components/IconLabelTabs';
+// import IconLabelTabs from './components/IconLabelTabs';
 import Partners from './components/Partners';
 import SectionSeparation from './components/UI/SectionSeparation';
 import Testimonials from './components/Testimonials';
+import Projects from './components/Projects';
 import Stack from './components/Stack';
 import Footer from './components/Footer';
 import ContactForm from './components/ContactForm';
@@ -67,8 +68,9 @@ const App = () => {
 			{formIsShown && <ContactForm onClose={hideFormHandler} />}
 			<Navigation onShowForm={showFormHandler} />
 			<Header onClose={hideFormHandler} onLinkToCv={linkToCvHandler} />
-			<SectionSeparation text={'Past projects'} />
-			<IconLabelTabs />
+			<SectionSeparation text={'Projects'} />
+			{/* <IconLabelTabs /> */}
+			<Projects category={'all'} />
 			<SectionSeparation text={'Partners'} />
 			<Partners category={'all'} />
 			<SectionSeparation text={'Tech Stack'} />

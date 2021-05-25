@@ -1,0 +1,37 @@
+.carousel_container button:focus {
+	outline: none;
+}
+
+.projects_container {
+	/* display: grid; */
+	/* grid-template-columns: repeat(2, minmax(0, 1fr)); */
+	display: flex;
+	gap: 3rem;
+}
+
+#projects {
+	width: 50%;
+	margin-left: 5vw;
+}
+
+.layoutImage_projects {
+	width: 35vw;
+	height: auto;
+	display: inline-block;
+}
+
+@media screen and (max-width: 1300px) {
+	/* .projects_container {
+		grid-template-columns: 1fr;
+	} */
+	#projects {
+		width: 90%;
+	}
+	.layoutImage_projects {
+		display: none;
+	}
+
+	/* .brands {
+		margin: 0 10rem 0 2rem;
+	} */
+}

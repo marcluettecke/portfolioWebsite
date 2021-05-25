@@ -147,6 +147,7 @@ export default {
 		]
 	},
 	projects: {
+		layoutImage: process.env.PUBLIC_URL + '/assets/layoutImages/Coding_SVG.svg',
 		websites: [
 			{
 				name: 'Skateshop App',
