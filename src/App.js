@@ -68,17 +68,14 @@ const App = () => {
 			{formIsShown && <ContactForm onClose={hideFormHandler} />}
 			<Navigation onShowForm={showFormHandler} />
 			<Header onClose={hideFormHandler} onLinkToCv={linkToCvHandler} />
-			<SectionSeparation text={'Projects'} />
-			{/* <IconLabelTabs /> */}
+			<SectionSeparation text={'Projects'} direction={'left'} />
 			<Projects category={'all'} />
-			<SectionSeparation text={'Partners'} />
+			<SectionSeparation text={'Partners'} direction={'right'} />
 			<Partners category={'all'} />
-			<SectionSeparation text={'Tech Stack'} />
-			{/* <div data-aos='fade-up' className='max-w-4xl h-15 bg-blue-400'>
-				Test
-			</div> */}
+			<SectionSeparation text={'Tech Stack'} direction={'left'} />
+
 			<Stack />
-			<SectionSeparation text={'Testimonials'} />
+			<SectionSeparation text={'Testimonials'} direction={'right'} />
 			<Testimonials />
 			<Footer onShowForm={showFormHandler} />
 		</ThemeProvider>

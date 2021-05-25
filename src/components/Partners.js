@@ -27,7 +27,7 @@ const Partners = props => {
 					className='layoutImage_partners'
 				/>
 			</div>
-			<div className='flex flex-wrap max-w-screen-lg brands'>{slides}</div>
+			<div className='flex flex-wrap max-w-screen-lg justify-center brands'>{slides}</div>
 		</div>
 	);
 };

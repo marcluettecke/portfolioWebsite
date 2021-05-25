@@ -294,6 +294,10 @@ export default {
 				alt: 'html'
 			},
 			{
+				img: process.env.PUBLIC_URL + '/assets/stack_logos/next.png',
+				alt: 'nextjs'
+			},
+			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/mongo.png',
 				alt: 'mongodb'
 			},

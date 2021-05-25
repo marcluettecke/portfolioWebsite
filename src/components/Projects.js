@@ -1,5 +1,5 @@
 import React from 'react';
-import { isMobile, isDesktop, isTablet } from 'react-device-detect';
+// import { isMobile, isDesktop, isTablet } from 'react-device-detect';
 import SingleImage from './SingleImage';
 import content from '../content';
 import './Projects.css';
@@ -13,16 +13,13 @@ const Projects = () => {
 		return <SingleImage key={el.name} website={el} style={{ marginLeft: '50px' }} />;
 	});
 
-	let deviceType;
-	if (isDesktop) {
-		deviceType = 'desktop';
-	}
-	if (isTablet) {
-		deviceType = 'tablet';
-	}
-	if (isMobile) {
-		deviceType = 'mobile';
-	}
+	// if (isDesktop) {
+	// 	let deviceType = 'desktop';
+	// }else if (isTablet) {
+	// 	let deviceType = 'tablet';
+	// }else if (isMobile) {
+	// 	let deviceType = 'mobile';
+	// }
 
 	const responsive = {
 		desktop: {

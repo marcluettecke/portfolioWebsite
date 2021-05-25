@@ -11,7 +11,14 @@ export default function Stack() {
 				<div className='flex flex-col items-center justify-around font-dosis'>
 					<div className='flex flex-wrap justify-center mt-10'>
 						{content.stack.tech.map((tech, index) => {
-							return <TechLogo index={index} image={tech.img} alt={tech.alt} />;
+							return (
+								<TechLogo
+									index={index}
+									image={tech.img}
+									alt={tech.alt}
+									key={tech.alt}
+								/>
+							);
 						})}
 					</div>
 				</div>
