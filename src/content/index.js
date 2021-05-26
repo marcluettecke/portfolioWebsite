@@ -8,7 +8,7 @@ export default {
 		img: 'https://i.ibb.co/3Fpnx8Y/headshot-blur.jpg',
 		imgAlt: 'profile Picture Marc Luettecke',
 		// img: 'https://i.ibb.co/2cZ1PD7/headshot-color-transparent.png',
-		text: ['Hey there!', "I'm Marc Luettecke,", "and I'm a"],
+		text: ['Hey there!', "I'm Marc Lüttecke,", "and I'm a"],
 		typical: [
 			'web developer. 📱💻',
 			2000,
@@ -153,13 +153,68 @@ export default {
 			{
 				name: 'Skateshop App',
 				type: 'frontend',
-				screenshotLink: 'https://i.ibb.co/DG5rntz/skate-Shop.jpg',
-				github: '',
+				screenshotLink: 'https://i.ibb.co/98vyxNN/skate-Shop-cropped.jpg',
+				github: 'https://github.com/marcluettecke/skateshopSite',
+				websiteLink: 'https://skateshopcss.netlify.app/',
+				technologies: [
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
+						alt: 'html',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
+						alt: 'css',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
+						alt: 'netlify',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
+						alt: 'git',
+						documentation: ''
+					}
+				]
+			},
+			{
+				name: 'Portfolio',
+				type: 'frontend',
+				screenshotLink: 'https://i.ibb.co/zW37tcB/portfolio-cropped.jpg',
+				github: 'https://github.com/marcluettecke/portfolioWebsite',
 				websiteLink: '',
 				technologies: [
 					{
-						img: '',
-						alt: ''
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
+						alt: 'html',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
+						alt: 'css',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/tailwind.svg',
+						alt: 'tailwind',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/react.png',
+						alt: 'react',
+						documentation: 'https://reactjs.org/'
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
+						alt: 'netlify',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
+						alt: 'git',
+						documentation: ''
 					}
 				]
 			},
@@ -167,103 +222,476 @@ export default {
 				name: 'Weather App',
 				type: 'frontend',
 				screenshotLink: 'https://i.ibb.co/wSZ4sQ3/weather-App-cropped.jpg',
-				github: '',
-				websiteLink: '',
+				github: 'https://github.com/marcluettecke/weatherApp',
+				websiteLink: 'https://weather-app-angular11.netlify.app/',
 				technologies: [
 					{
-						img: '',
-						alt: ''
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
+						alt: 'html',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
+						alt: 'css',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/ts.png',
+						alt: 'ts',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/angular.png',
+						alt: 'angular',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/firebase.png',
+						alt: 'firebase',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
+						alt: 'netlify',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
+						alt: 'git',
+						documentation: ''
 					}
 				]
 			},
 			{
-				name: 'Kobe Bryant memorial app',
+				name: 'Memorial App',
 				type: 'frontend',
-				screenshotLink: 'https://i.ibb.co/7p3r1K6/mamba-Mermories.jpg',
-				github: '',
-				websiteLink: '',
+				screenshotLink: 'https://i.ibb.co/WDvjny8/mamba-Mermories-cropped.jpg',
+				github: 'https://github.com/marcluettecke/MambaMemories',
+				websiteLink: 'https://mambamemories.herokuapp.com/',
 				technologies: [
 					{
-						img: '',
-						alt: ''
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
+						alt: 'html',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
+						alt: 'css',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/js.png',
+						alt: 'js'
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/node.png',
+						alt: 'node',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/mongo.png',
+						alt: 'mongodb',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/heroku.png',
+						alt: 'heroku',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
+						alt: 'git',
+						documentation: ''
 					}
 				]
 			},
 			{
-				name: 'Personal CV website',
+				name: 'Personal CV',
+				type: 'both',
+				screenshotLink: 'https://i.ibb.co/zS9Kt0z/cv-cropped.jpg',
+				github: 'https://github.com/marcluettecke/cv/tree/master',
+				websiteLink: 'https://cvmarcluettecke.netlify.app/',
+				documentDownloadLink:
+					process.env.PUBLIC_URL + '/assets/documents/MarcLuettecke_CV.pdf',
+				technologies: [
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
+						alt: 'html',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
+						alt: 'css',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/js.png',
+						alt: 'js',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
+						alt: 'netlify',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
+						alt: 'git',
+						documentation: ''
+					}
+				]
+			},
+			{
+				name: 'Naklar.io tutoring',
 				type: 'frontend',
-				screenshotLink: 'https://i.ibb.co/VW0Yz64/cv.jpg',
-				github: '',
-				websiteLink: '',
+				screenshotLink: 'https://i.ibb.co/b68cZBj/naklario-cropped.jpg',
+				github: 'https://github.com/naklar-io/naklar.io/tree/develop/frontend',
+				websiteLink: 'https://naklar.io/',
 				technologies: [
 					{
-						img: '',
-						alt: ''
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
+						alt: 'html',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
+						alt: 'css',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/ts.png',
+						alt: 'ts',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/angular.png',
+						alt: 'angular',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/ionic.png',
+						alt: 'ionic',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
+						alt: 'git',
+						documentation: ''
 					}
 				]
 			},
 			{
-				name: 'Nexter Dummy website',
-				type: 'practice',
+				name: 'ReactMeals',
+				type: 'frontend',
+				screenshotLink: 'https://i.ibb.co/VTDTGdV/reactmeals-cropped.jpg',
+				github: 'https://github.com/marcluettecke/ReactMeals',
+				websiteLink: 'https://reactmealspractice.netlify.app/',
+				technologies: [
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
+						alt: 'html',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
+						alt: 'css',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/js.png',
+						alt: 'js',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/react.png',
+						alt: 'react',
+						documentation: 'https://reactjs.org/'
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/firebase.png',
+						alt: 'firebase',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
+						alt: 'netlify',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
+						alt: 'git',
+						documentation: ''
+					}
+				]
+			},
+			{
+				name: 'Realtor Landing Page',
+				type: 'frontend',
 				screenshotLink: 'https://i.ibb.co/c8Bd77j/nexter-cropped.jpg',
-				github: '',
-				websiteLink: '',
+				github: 'https://github.com/marcluettecke/nexter',
+				websiteLink: 'https://marcluettecke.github.io/nexter/',
 				technologies: [
 					{
-						img: '',
-						alt: ''
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
+						alt: 'html',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
+						alt: 'css',
+						documentation: ''
+					},
+
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
+						alt: 'netlify',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
+						alt: 'git',
+						documentation: ''
 					}
 				]
 			},
 			{
-				name: 'Soccer Formations Frontend - Thesis application',
-				type: 'frontend',
+				name: 'Soccer Formations - Web App',
+				type: 'both',
 				screenshotLink: 'https://i.ibb.co/txrdXTb/soccer-Formations.jpg',
-				github: '',
-				websiteLink: '',
+				github: 'https://github.com/marcluettecke/soccerFormationsFrontend/tree/master',
+				websiteLink: 'https://soccerformations.netlify.app/',
+				documentDownloadLink:
+					process.env.PUBLIC_URL + '/assets/documents/MarcLuettecke_Thesis.pdf',
 				technologies: [
 					{
-						img: '',
-						alt: ''
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
+						alt: 'html',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
+						alt: 'css',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/ts.png',
+						alt: 'ts',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/d3.png',
+						alt: 'angular',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/angular.png',
+						alt: 'd3',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
+						alt: 'netlify',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
+						alt: 'git',
+						documentation: ''
 					}
 				]
 			},
 			{
 				name: 'Business Statscard',
-				type: 'practice',
+				type: 'frontend',
 				screenshotLink: 'https://i.ibb.co/pjmkD8k/statscard-cropped.jpg',
-				github: '',
-				websiteLink: '',
+				github: 'https://github.com/marcluettecke/FrontendMentorChallenges/tree/main/StatsCard',
+				websiteLink: 'https://statscard.netlify.app/',
 				technologies: [
 					{
-						img: '',
-						alt: ''
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
+						alt: 'html',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
+						alt: 'css',
+						documentation: ''
+					},
+
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
+						alt: 'netlify',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
+						alt: 'git',
+						documentation: ''
 					}
 				]
 			},
 			{
 				name: 'Business Coming Soon',
-				type: 'practice',
+				type: 'frontend',
 				screenshotLink: 'https://i.ibb.co/kcT5bVv/baseapparel-cropped.jpg',
-				github: '',
-				websiteLink: '',
+				github: 'https://github.com/marcluettecke/FrontendMentorChallenges/tree/main/BaseApparelComingSoon',
+				websiteLink: 'https://basesapparelcomingsoonsite.netlify.app/',
 				technologies: [
 					{
-						img: '',
-						alt: ''
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
+						alt: 'html',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
+						alt: 'css',
+						documentation: ''
+					},
+
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
+						alt: 'netlify',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
+						alt: 'git',
+						documentation: ''
 					}
 				]
 			},
 			{
-				name: 'Three column grid',
-				type: 'practice',
+				name: 'Three Columns',
+				type: 'frontend',
 				screenshotLink: 'https://i.ibb.co/kgvR0b9/three-Column-Grid-cropped.jpg',
-				github: '',
-				websiteLink: '',
+				github: 'https://github.com/marcluettecke/FrontendMentorChallenges/tree/main/ThreeColumnGrid',
+				websiteLink: 'https://threecolumngrid.netlify.app/',
 				technologies: [
 					{
-						img: '',
-						alt: ''
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
+						alt: 'html',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
+						alt: 'css',
+						documentation: ''
+					},
+
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
+						alt: 'netlify',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
+						alt: 'git',
+						documentation: ''
+					}
+				]
+			},
+			{
+				name: 'Soccer formations - backend',
+				type: 'document',
+				screenshotLink: 'https://i.ibb.co/YWS1kcp/soccer-Formations-backend-cropped.jpg',
+				github: 'https://github.com/marcluettecke/soccerFormationsBackend',
+				documentDownloadLink:
+					process.env.PUBLIC_URL + '/assets/documents/MarcLuettecke_Thesis.pdf',
+				technologies: [
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/python.png',
+						alt: 'python',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/keras.png',
+						alt: 'keras',
+						documentation: ''
+					},
+
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/postgres.png',
+						alt: 'postgres',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
+						alt: 'git',
+						documentation: ''
+					}
+				]
+			},
+			{
+				name: 'Sentence classification',
+				type: 'document',
+				screenshotLink: 'https://i.ibb.co/pdHdqvP/ss-classification-cropped.jpg',
+				github: 'https://github.com/marcluettecke/single-sentence-classification-NN/tree/23e7263382225694d583fd06aadcfad1e62fdd46',
+				documentDownloadLink:
+					process.env.PUBLIC_URL +
+					'/assets/documents/MarcLuettecke_SS_classification.pdf',
+				technologies: [
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/python.png',
+						alt: 'python',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/keras.png',
+						alt: 'keras',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/tensorflow.svg',
+						alt: 'tensorflow',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
+						alt: 'git',
+						documentation: ''
+					}
+				]
+			},
+			{
+				name: 'Rent bubble visualization',
+				type: 'document',
+				screenshotLink: 'https://i.ibb.co/zPWj6jT/rent-cropped.jpg',
+				github: 'https://github.com/marcluettecke/rent_data_germany',
+				documentDownloadLink:
+					process.env.PUBLIC_URL + '/assets/documents/MarcLuettecke_rent_paper.pdf',
+				technologies: [
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/python.png',
+						alt: 'python',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/R.svg',
+						alt: 'R',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
+						alt: 'git',
+						documentation: ''
+					}
+				]
+			},
+			{
+				name: 'Card mini game',
+				type: 'other',
+				screenshotLink: 'https://i.ibb.co/nRT9RPq/uno-cropped.jpg',
+				github: 'https://github.com/marcluettecke/unoGame',
+				technologies: [
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/python.png',
+						alt: 'python',
+						documentation: ''
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
+						alt: 'git',
+						documentation: ''
 					}
 				]
 			}
@@ -276,55 +704,108 @@ export default {
 		tech: [
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/react.png',
-				alt: 'react'
+				alt: 'react',
+				documentation: 'https://reactjs.org/'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
-				alt: 'git'
+				alt: 'git',
+				documentation: ''
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/angular.png',
-				alt: 'angular'
+				alt: 'angular',
+				documentation: ''
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/postgres.png',
-				alt: 'postgres'
+				alt: 'postgres',
+				documentation: ''
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
-				alt: 'html'
+				alt: 'html',
+				documentation: ''
+			},
+			{
+				img: process.env.PUBLIC_URL + '/assets/stack_logos/node.png',
+				alt: 'node',
+				documentation: ''
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/next.png',
-				alt: 'nextjs'
+				alt: 'nextjs',
+				documentation: ''
+			},
+			{
+				img: process.env.PUBLIC_URL + '/assets/stack_logos/keras.png',
+				alt: 'keras',
+				documentation: ''
+			},
+			{
+				img: process.env.PUBLIC_URL + '/assets/stack_logos/js.png',
+				alt: 'js',
+				documentation: ''
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/mongo.png',
-				alt: 'mongodb'
+				alt: 'mongodb',
+				documentation: ''
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/firebase.png',
-				alt: 'firebase'
+				alt: 'firebase',
+				documentation: ''
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/tailwind.svg',
-				alt: 'tailwind'
+				alt: 'tailwind',
+				documentation: ''
+			},
+			{
+				img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
+				alt: 'netlify',
+				documentation: ''
+			},
+			{
+				img: process.env.PUBLIC_URL + '/assets/stack_logos/ts.png',
+				alt: 'ts',
+				documentation: ''
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/ionic.png',
-				alt: 'ionic'
+				alt: 'ionic',
+				documentation: ''
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/python.png',
-				alt: 'python'
+				alt: 'python',
+				documentation: ''
+			},
+			{
+				img: process.env.PUBLIC_URL + '/assets/stack_logos/d3.png',
+				alt: 'd3',
+				documentation: ''
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
-				alt: 'css'
+				alt: 'css',
+				documentation: ''
+			},
+			{
+				img: process.env.PUBLIC_URL + '/assets/stack_logos/heroku.png',
+				alt: 'heroku',
+				documentation: ''
+			},
+			{
+				img: process.env.PUBLIC_URL + '/assets/stack_logos/R.svg',
+				alt: 'R',
+				documentation: ''
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/tensorflow.svg',
-				alt: 'tensorflow'
+				alt: 'tensorflow',
+				documentation: ''
 			}
 		],
 		desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only`

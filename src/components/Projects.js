@@ -1,16 +1,16 @@
 import React from 'react';
 // import { isMobile, isDesktop, isTablet } from 'react-device-detect';
-import SingleImage from './SingleImage';
 import content from '../content';
 import './Projects.css';
 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import ProjectCard from './UI/ProjectCard';
 
 const Projects = () => {
 	let slides;
 	slides = content.projects.websites.map(el => {
-		return <SingleImage key={el.name} website={el} style={{ marginLeft: '50px' }} />;
+		return <ProjectCard key={el.name} websites={el} />;
 	});
 
 	// if (isDesktop) {
@@ -47,8 +47,8 @@ const Projects = () => {
 						// centerMode={true}
 						ssr={true} // means to render carousel on server-side.
 						// autoPlay={deviceType !== 'mobile' ? true : false}
-						autoPlay={true}
-						autoPlaySpeed={5000}
+						// autoPlay={true}
+						// autoPlaySpeed={5000}
 						keyBoardControl={true}
 						containerClass='carousel-container'
 						removeArrowOnDeviceType={['mobile']}
@@ -61,7 +61,7 @@ const Projects = () => {
 					</Carousel>
 				</div>
 			</div>
-			<div className='pr-20 ml-10'>
+			<div className='pr-20 ml-10 layoutImage_projects_container'>
 				<img
 					src={content.projects.layoutImage}
 					alt='Test'

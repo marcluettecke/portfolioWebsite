@@ -16,6 +16,11 @@ export default function Stack() {
 								image={tech.img}
 								alt={tech.alt}
 								key={tech.alt}
+								width={'7.5rem'}
+								height={'7.5rem'}
+								marginX={'20'}
+								marginY={'48'}
+								documentation={tech.documentation}
 							/>
 						);
 					})}

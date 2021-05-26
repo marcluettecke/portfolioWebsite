@@ -22,7 +22,9 @@ import {
 	faDumbbell,
 	faChevronUp,
 	faPhone,
-	faMapMarkerAlt
+	faMapMarkerAlt,
+	faCode,
+	faFilePdf
 } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
@@ -42,7 +44,9 @@ library.add(
 	faDumbbell,
 	faChevronUp,
 	faPhone,
-	faMapMarkerAlt
+	faMapMarkerAlt,
+	faCode,
+	faFilePdf
 );
 
 const App = () => {

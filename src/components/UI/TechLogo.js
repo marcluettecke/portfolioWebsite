@@ -6,13 +6,15 @@ const TechLogo = props => {
 		<span
 			key={props.index}
 			style={{
-				// margin: `${generateRandomPadding()}px ${generateRandomPadding()}px ${generateRandomPadding()}px ${generateRandomPadding()}px`,
-				width: '7.5rem',
-				height: '7.5rem'
+				width: `${props.width}`,
+				height: `${props.height}`,
+				margin: `${props.marginY}px ${props.marginX}px`
 			}}
-			className={`logo_img w-24 h-24 mx-12 my-5 bg-white hover:translate-y-7 m-2 rounded-full flex items-center`}
+			className={`logo_img hover:translate-y-7 m-2 rounded-full flex items-center`}
 		>
-			<img src={props.image} alt={props.alt} className='' />
+			<a href={props.documentation} target='_blank' rel='noopener noreferrer'>
+				<img src={props.image} alt={props.alt} className='' />
+			</a>
 		</span>
 	);
 };
