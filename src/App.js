@@ -9,6 +9,7 @@ import Projects from './components/Projects';
 import Stack from './components/Stack';
 import Footer from './components/Footer';
 import ContactForm from './components/ContactForm';
+import Loader from './components/UI/Loader';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -51,6 +52,7 @@ library.add(
 
 const App = () => {
 	const [formIsShown, setFormIsShown] = useState(false);
+	const [isLoading, setIsLoading] = useState(true);
 
 	const hideFormHandler = () => {
 		setFormIsShown(false);
@@ -66,22 +68,30 @@ const App = () => {
 		AOS.init({
 			duration: 2000
 		});
+		setTimeout(() => {
+			setIsLoading(false);
+		}, 3000);
 	}, []);
 	return (
 		<ThemeProvider theme={theme}>
-			{formIsShown && <ContactForm onClose={hideFormHandler} />}
-			<Navigation onShowForm={showFormHandler} />
-			<Header onClose={hideFormHandler} onLinkToCv={linkToCvHandler} />
-			<SectionSeparation text={'Projects'} direction={'left'} />
-			<Projects category={'all'} />
-			<SectionSeparation text={'Partners'} direction={'right'} />
-			<Partners category={'all'} />
-			<SectionSeparation text={'Technologies'} direction={'left'} />
+			{isLoading && <Loader />}
+			{!isLoading && formIsShown && <ContactForm onClose={hideFormHandler} />}
+			{!isLoading && (
+				<div>
+					<Navigation onShowForm={showFormHandler} />
+					<Header onClose={hideFormHandler} onLinkToCv={linkToCvHandler} />
+					<SectionSeparation text={'Projects'} direction={'left'} />
+					<Projects category={'all'} />
+					<SectionSeparation text={'Partners'} direction={'right'} />
+					<Partners category={'all'} />
+					<SectionSeparation text={'Technologies'} direction={'left'} />
 
-			<Stack />
-			<SectionSeparation text={'Testimonials'} direction={'right'} />
-			<Testimonials />
-			<Footer onShowForm={showFormHandler} />
+					<Stack />
+					<SectionSeparation text={'Testimonials'} direction={'right'} />
+					<Testimonials />
+					<Footer onShowForm={showFormHandler} />
+				</div>
+			)}
 		</ThemeProvider>
 	);
 };

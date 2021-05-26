@@ -591,7 +591,7 @@ export default {
 				]
 			},
 			{
-				name: 'Soccer formations - backend',
+				name: 'Soccer Formations - Backend',
 				type: 'document',
 				screenshotLink: 'https://i.ibb.co/YWS1kcp/soccer-Formations-backend-cropped.jpg',
 				github: 'https://github.com/marcluettecke/soccerFormationsBackend',
@@ -622,7 +622,7 @@ export default {
 				]
 			},
 			{
-				name: 'Sentence classification',
+				name: 'Sentence Classification',
 				type: 'document',
 				screenshotLink: 'https://i.ibb.co/pdHdqvP/ss-classification-cropped.jpg',
 				github: 'https://github.com/marcluettecke/single-sentence-classification-NN/tree/23e7263382225694d583fd06aadcfad1e62fdd46',
@@ -653,7 +653,7 @@ export default {
 				]
 			},
 			{
-				name: 'Rent bubble visualization',
+				name: 'Rent Bubble Visualization',
 				type: 'document',
 				screenshotLink: 'https://i.ibb.co/zPWj6jT/rent-cropped.jpg',
 				github: 'https://github.com/marcluettecke/rent_data_germany',

@@ -26,7 +26,7 @@ const Navigation = props => {
 						return (
 							<span
 								key={index}
-								className='text-xl mr-4 hover:text-indigo-500'
+								className='text-2xl font-semibold mr-4 hover:text-indigo-500'
 								onClick={props.onShowForm}
 								id='contact_form_link'
 							>
