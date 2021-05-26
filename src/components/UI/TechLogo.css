@@ -9,8 +9,28 @@
 	filter: none;
 }
 
+.logo_img_stack {
+	width: 7.5rem;
+	height: 7 0.5rem;
+	margin: 20px 48px;
+}
+
+.logo_img_projects {
+	width: 3.5rem;
+	height: 3.5rem;
+	margin: 0 25px;
+}
+
 @media screen and (max-width: 1300px) {
 	.logo_img {
 		filter: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.logo_img_projects {
+		width: 2.5rem;
+		height: 2.5rem;
+		margin: 0 15px;
 	}
 }

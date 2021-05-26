@@ -11,10 +11,7 @@ const ProjectCard = props => {
 				image={el.img}
 				alt={el.alt}
 				key={el.alt}
-				width={'3.5rem'}
-				height={'3.5rem'}
-				marginX={''}
-				marginY={'25'}
+				section={'projects'}
 				documentation={el.documentation}
 			/>
 		);
@@ -53,8 +50,8 @@ const ProjectCard = props => {
 				<div className='content'>
 					<img src={props.websites.screenshotLink} alt='test' />
 					<div className='heading_container flex justify-between'>
-						<h3 className='text-white w-3/5'>{props.websites.name}</h3>
-						<div className='techlogos flex justify-end'>{logos}</div>
+						<h3 className='text-white w-1/2'>{props.websites.name}</h3>
+						<div className='techlogos flex justify-center flex-wrap'>{logos}</div>
 					</div>
 				</div>
 			</div>
@@ -66,11 +63,7 @@ const ProjectCard = props => {
 						adipisicing elit. Quas cum cumque minus iste veritatis provident at. Lorem
 						ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus
 						iste veritatis provident at. Lorem ipsum dolor sit amet consectetur
-						adipisicing elit. Quas cum cumque minus iste veritatis provident at. iste
-						veritatis provident at. Lorem ipsum dolor sit amet consectetur adipisicing
-						elit. Quas cum cumque minus iste veritatis provident at. iste veritatis
-						provident at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-						cum cumque minus iste veritatis provident at.
+						adipisicing elit.
 					</p>
 					<div className='actions flex justify-end'>
 						{firstButton}

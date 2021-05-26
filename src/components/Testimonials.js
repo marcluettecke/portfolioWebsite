@@ -20,6 +20,7 @@ const Testimonials = () => {
 
 	return (
 		<Carousel
+			swipeable={true}
 			showArrows={true}
 			infiniteLoop={true}
 			showThumbs={false}

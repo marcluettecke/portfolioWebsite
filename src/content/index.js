@@ -151,7 +151,7 @@ export default {
 		layoutImage: process.env.PUBLIC_URL + '/assets/layoutImages/Coding_SVG.svg',
 		websites: [
 			{
-				name: 'Skateshop App',
+				name: 'Skateshop Landing Page',
 				type: 'frontend',
 				screenshotLink: 'https://i.ibb.co/98vyxNN/skate-Shop-cropped.jpg',
 				github: 'https://github.com/marcluettecke/skateshopSite',
