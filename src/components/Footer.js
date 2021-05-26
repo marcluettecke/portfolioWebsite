@@ -65,7 +65,7 @@ const Footer = props => {
 					</a>
 				</div>
 
-				<p className='copyright max-w-lg'>{content.footer.text}</p>
+				<p className='copyright max-w-lg mx-10 md:mx-20'>{content.footer.text}</p>
 			</footer>
 		</div>
 	);

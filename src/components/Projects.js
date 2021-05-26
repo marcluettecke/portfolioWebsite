@@ -51,7 +51,7 @@ const Projects = () => {
 						// autoPlaySpeed={5000}
 						keyBoardControl={true}
 						containerClass='carousel-container'
-						removeArrowOnDeviceType={['mobile']}
+						// removeArrowOnDeviceType={['mobile']}
 						// deviceType={deviceType}
 						dotListClass='custom-dot-list-style'
 						// itemClass='mb-20'

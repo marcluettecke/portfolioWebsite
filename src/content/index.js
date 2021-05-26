@@ -31,77 +31,88 @@ export default {
 				alt: 'subsequent',
 				widthMd: '240',
 				widthLg: '320',
-				height: '60'
+				height: '60',
+				url: 'www.subsequent.ai'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/partner_logos/techlabs.png',
 				alt: 'techlabs',
 				widthMd: '200',
 				widthLg: '300',
-				height: '32'
+				height: '32',
+				url: 'https://www.techlabs.org/'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/partner_logos/uni_kn.svg',
 				alt: 'uni_kn',
 				widthMd: '180',
 				widthLg: '280',
-				height: '32'
+				height: '32',
+				url: 'https://www.uni-konstanz.de/en/'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/partner_logos/naklario.png',
 				alt: 'naklario',
 				widthMd: '160',
 				widthLg: '280',
-				height: '32'
+				height: '32',
+				url: 'https://naklar.io/'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/partner_logos/maroon.png',
 				alt: 'maroon',
 				widthMd: '80',
 				widthLg: '160',
-				height: '32'
+				height: '32',
+				url: 'https://loyolamaroon.com/'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/partner_logos/utx.png',
 				alt: 'utexas',
 				widthMd: '220',
 				widthLg: '300',
-				height: '40'
+				height: '40',
+				url: 'https://www.mccombs.utexas.edu/'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/partner_logos/urbanhive.png',
 				alt: 'urbanhive',
 				widthMd: '220',
 				widthLg: '300',
-				height: '32'
+				height: '32',
+				url: 'https://urbanhive.de/'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/partner_logos/loyola.png',
 				alt: 'loyola',
 				widthMd: '200',
 				widthLg: '280',
-				height: '40'
+				height: '40',
+				url: 'https://www.loyno.edu/'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/partner_logos/uni_heidelberg.png',
 				alt: 'heidelberg',
 				widthMd: '160',
 				widthLg: '240',
-				height: '40'
+				height: '40',
+				url: 'https://www.uni-heidelberg.de/excellenceinitiative/'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/partner_logos/kpmg_transparent.png',
 				alt: 'kpmg',
 				widthMd: '160',
 				widthLg: '200',
-				height: '26'
+				height: '26',
+				url: 'https://home.kpmg/de/de/home/dienstleistungen/branchen-und-maerkte/financial-services.html'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/partner_logos/correlaid_transparent.png',
 				alt: 'correlaid',
 				widthMd: '180',
 				widthLg: '260',
-				height: '26'
+				height: '26',
+				url: 'https://correlaid.org/'
 			}
 		]
 	},
@@ -160,22 +171,22 @@ export default {
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
 						alt: 'html',
-						documentation: ''
+						documentation: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
 						alt: 'css',
-						documentation: ''
+						documentation: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
 						alt: 'netlify',
-						documentation: ''
+						documentation: 'https://www.netlify.com/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
 						alt: 'git',
-						documentation: ''
+						documentation: 'https://git-scm.com/'
 					}
 				]
 			},
@@ -189,17 +200,22 @@ export default {
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
 						alt: 'html',
-						documentation: ''
+						documentation: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
 						alt: 'css',
-						documentation: ''
+						documentation: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/tailwind.svg',
 						alt: 'tailwind',
-						documentation: ''
+						documentation: 'https://tailwindcss.com/'
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/js.png',
+						alt: 'js',
+						documentation: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/react.png',
@@ -209,12 +225,12 @@ export default {
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
 						alt: 'netlify',
-						documentation: ''
+						documentation: 'https://www.netlify.com/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
 						alt: 'git',
-						documentation: ''
+						documentation: 'https://git-scm.com/'
 					}
 				]
 			},
@@ -228,37 +244,37 @@ export default {
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
 						alt: 'html',
-						documentation: ''
+						documentation: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
 						alt: 'css',
-						documentation: ''
+						documentation: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/ts.png',
 						alt: 'ts',
-						documentation: ''
+						documentation: 'https://www.typescriptlang.org/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/angular.png',
 						alt: 'angular',
-						documentation: ''
+						documentation: 'https://angular.io/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/firebase.png',
 						alt: 'firebase',
-						documentation: ''
+						documentation: 'https://firebase.google.com/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
 						alt: 'netlify',
-						documentation: ''
+						documentation: 'https://www.netlify.com/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
 						alt: 'git',
-						documentation: ''
+						documentation: 'https://git-scm.com/'
 					}
 				]
 			},
@@ -272,36 +288,37 @@ export default {
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
 						alt: 'html',
-						documentation: ''
+						documentation: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
 						alt: 'css',
-						documentation: ''
+						documentation: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/js.png',
-						alt: 'js'
+						alt: 'js',
+						documentation: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/node.png',
 						alt: 'node',
-						documentation: ''
+						documentation: 'https://nodejs.org/en/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/mongo.png',
 						alt: 'mongodb',
-						documentation: ''
+						documentation: 'https://www.mongodb.com/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/heroku.png',
 						alt: 'heroku',
-						documentation: ''
+						documentation: 'https://dashboard.heroku.com/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
 						alt: 'git',
-						documentation: ''
+						documentation: 'https://git-scm.com/'
 					}
 				]
 			},
@@ -317,27 +334,27 @@ export default {
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
 						alt: 'html',
-						documentation: ''
+						documentation: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
 						alt: 'css',
-						documentation: ''
+						documentation: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/js.png',
 						alt: 'js',
-						documentation: ''
+						documentation: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
 						alt: 'netlify',
-						documentation: ''
+						documentation: 'https://www.netlify.com/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
 						alt: 'git',
-						documentation: ''
+						documentation: 'https://git-scm.com/'
 					}
 				]
 			},
@@ -351,32 +368,32 @@ export default {
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
 						alt: 'html',
-						documentation: ''
+						documentation: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
 						alt: 'css',
-						documentation: ''
+						documentation: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/ts.png',
 						alt: 'ts',
-						documentation: ''
+						documentation: 'https://www.typescriptlang.org/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/angular.png',
 						alt: 'angular',
-						documentation: ''
+						documentation: 'https://angular.io/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/ionic.png',
 						alt: 'ionic',
-						documentation: ''
+						documentation: 'https://ionicframework.com/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
 						alt: 'git',
-						documentation: ''
+						documentation: 'https://git-scm.com/'
 					}
 				]
 			},
@@ -390,17 +407,17 @@ export default {
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
 						alt: 'html',
-						documentation: ''
+						documentation: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
 						alt: 'css',
-						documentation: ''
+						documentation: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/js.png',
 						alt: 'js',
-						documentation: ''
+						documentation: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/react.png',
@@ -410,17 +427,17 @@ export default {
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/firebase.png',
 						alt: 'firebase',
-						documentation: ''
+						documentation: 'https://firebase.google.com/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
 						alt: 'netlify',
-						documentation: ''
+						documentation: 'https://www.netlify.com/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
 						alt: 'git',
-						documentation: ''
+						documentation: 'https://git-scm.com/'
 					}
 				]
 			},
@@ -434,23 +451,23 @@ export default {
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
 						alt: 'html',
-						documentation: ''
+						documentation: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
 						alt: 'css',
-						documentation: ''
+						documentation: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
 					},
 
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
 						alt: 'netlify',
-						documentation: ''
+						documentation: 'https://www.netlify.com/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
 						alt: 'git',
-						documentation: ''
+						documentation: 'https://git-scm.com/'
 					}
 				]
 			},
@@ -466,37 +483,37 @@ export default {
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
 						alt: 'html',
-						documentation: ''
+						documentation: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
 						alt: 'css',
-						documentation: ''
+						documentation: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/ts.png',
 						alt: 'ts',
-						documentation: ''
+						documentation: 'https://www.typescriptlang.org/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/d3.png',
 						alt: 'angular',
-						documentation: ''
+						documentation: 'https://angular.io/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/angular.png',
 						alt: 'd3',
-						documentation: ''
+						documentation: 'https://d3js.org/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
 						alt: 'netlify',
-						documentation: ''
+						documentation: 'https://www.netlify.com/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
 						alt: 'git',
-						documentation: ''
+						documentation: 'https://git-scm.com/'
 					}
 				]
 			},
@@ -510,23 +527,23 @@ export default {
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
 						alt: 'html',
-						documentation: ''
+						documentation: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
 						alt: 'css',
-						documentation: ''
+						documentation: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
 					},
 
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
 						alt: 'netlify',
-						documentation: ''
+						documentation: 'https://www.netlify.com/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
 						alt: 'git',
-						documentation: ''
+						documentation: 'https://git-scm.com/'
 					}
 				]
 			},
@@ -540,23 +557,23 @@ export default {
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
 						alt: 'html',
-						documentation: ''
+						documentation: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
 						alt: 'css',
-						documentation: ''
+						documentation: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
 					},
 
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
 						alt: 'netlify',
-						documentation: ''
+						documentation: 'https://www.netlify.com/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
 						alt: 'git',
-						documentation: ''
+						documentation: 'https://git-scm.com/'
 					}
 				]
 			},
@@ -570,23 +587,23 @@ export default {
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
 						alt: 'html',
-						documentation: ''
+						documentation: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
 						alt: 'css',
-						documentation: ''
+						documentation: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
 					},
 
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
 						alt: 'netlify',
-						documentation: ''
+						documentation: 'https://www.netlify.com/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
 						alt: 'git',
-						documentation: ''
+						documentation: 'https://git-scm.com/'
 					}
 				]
 			},
@@ -601,23 +618,23 @@ export default {
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/python.png',
 						alt: 'python',
-						documentation: ''
+						documentation: 'https://www.python.org/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/keras.png',
 						alt: 'keras',
-						documentation: ''
+						documentation: 'https://keras.io/'
 					},
 
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/postgres.png',
 						alt: 'postgres',
-						documentation: ''
+						documentation: 'https://www.postgresql.org/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
 						alt: 'git',
-						documentation: ''
+						documentation: 'https://git-scm.com/'
 					}
 				]
 			},
@@ -633,22 +650,22 @@ export default {
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/python.png',
 						alt: 'python',
-						documentation: ''
+						documentation: 'https://www.python.org/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/keras.png',
 						alt: 'keras',
-						documentation: ''
+						documentation: 'https://keras.io/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/tensorflow.svg',
 						alt: 'tensorflow',
-						documentation: ''
+						documentation: 'https://www.tensorflow.org/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
 						alt: 'git',
-						documentation: ''
+						documentation: 'https://git-scm.com/'
 					}
 				]
 			},
@@ -663,17 +680,17 @@ export default {
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/python.png',
 						alt: 'python',
-						documentation: ''
+						documentation: 'https://www.python.org/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/R.svg',
 						alt: 'R',
-						documentation: ''
+						documentation: 'https://www.r-project.org/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
 						alt: 'git',
-						documentation: ''
+						documentation: 'https://git-scm.com/'
 					}
 				]
 			},
@@ -686,12 +703,12 @@ export default {
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/python.png',
 						alt: 'python',
-						documentation: ''
+						documentation: 'https://www.python.org/'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
 						alt: 'git',
-						documentation: ''
+						documentation: 'https://git-scm.com/'
 					}
 				]
 			}
@@ -710,102 +727,102 @@ export default {
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
 				alt: 'git',
-				documentation: ''
+				documentation: 'https://git-scm.com/'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/angular.png',
 				alt: 'angular',
-				documentation: ''
+				documentation: 'https://angular.io/'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/postgres.png',
 				alt: 'postgres',
-				documentation: ''
+				documentation: 'https://www.postgresql.org/'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
 				alt: 'html',
-				documentation: ''
+				documentation: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/node.png',
 				alt: 'node',
-				documentation: ''
+				documentation: 'https://nodejs.org/en/'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/next.png',
 				alt: 'nextjs',
-				documentation: ''
+				documentation: 'https://nextjs.org/'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/keras.png',
 				alt: 'keras',
-				documentation: ''
+				documentation: 'https://keras.io/'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/js.png',
 				alt: 'js',
-				documentation: ''
+				documentation: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/mongo.png',
 				alt: 'mongodb',
-				documentation: ''
+				documentation: 'https://www.mongodb.com/'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/firebase.png',
 				alt: 'firebase',
-				documentation: ''
+				documentation: 'https://firebase.google.com/'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/tailwind.svg',
 				alt: 'tailwind',
-				documentation: ''
+				documentation: 'https://tailwindcss.com/'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
 				alt: 'netlify',
-				documentation: ''
+				documentation: 'https://www.netlify.com/'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/ts.png',
 				alt: 'ts',
-				documentation: ''
+				documentation: 'https://www.typescriptlang.org/'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/ionic.png',
 				alt: 'ionic',
-				documentation: ''
+				documentation: 'https://ionicframework.com/'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/python.png',
 				alt: 'python',
-				documentation: ''
+				documentation: 'https://www.python.org/'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/d3.png',
 				alt: 'd3',
-				documentation: ''
+				documentation: 'https://d3js.org/'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
 				alt: 'css',
-				documentation: ''
+				documentation: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/heroku.png',
 				alt: 'heroku',
-				documentation: ''
+				documentation: 'https://dashboard.heroku.com/'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/R.svg',
 				alt: 'R',
-				documentation: ''
+				documentation: 'https://www.r-project.org/'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/tensorflow.svg',
 				alt: 'tensorflow',
-				documentation: ''
+				documentation: 'https://www.tensorflow.org/'
 			}
 		],
 		desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only`
@@ -813,7 +830,7 @@ export default {
 	footer: {
 		buttonText: 'Get in touch',
 		buttonTwWidth: '56',
-		text: 'This website was built using React.js and Tailwind.css. While inspired by other websites, it is fully my own work, so if you end up using it or parts of it, any reference would be appreciated | Marc Luettecke © 2021'
+		text: 'This website was built using React.js and Tailwind.css. While inspired by a lot of other websites, it is fully my own work, so any shout out would be highly appreciated if you end up using it or parts of it | Marc Luettecke © 2021'
 	},
 	contactForm: {
 		name: 'contactForm',

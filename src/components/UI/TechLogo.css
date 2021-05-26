@@ -33,4 +33,9 @@
 		height: 2.5rem;
 		margin: 0 15px;
 	}
+	.logo_img_stack {
+		width: 5rem;
+		height: 5rem;
+		margin: 15px 36px;
+	}
 }

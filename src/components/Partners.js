@@ -14,6 +14,7 @@ const Partners = props => {
 				image={el.img}
 				alt={el.alt}
 				index={idx}
+				url={el.url}
 			/>
 		);
 	});
