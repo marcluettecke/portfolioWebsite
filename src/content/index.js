@@ -214,7 +214,7 @@ export default {
 				github: 'https://github.com/marcluettecke/portfolioWebsite',
 				websiteLink: 'https://portfoliomarcluettecke.netlify.app/',
 				description:
-					"This very website you are looking at right now! The project leverages React.js's file patterns and component modularization as well as community packages for slider motions, typing effects, custom alerts, and smooth scrolling. Combined with Tailwind CSS and email.js as backend a small but fullstack project. Fun!",
+					"The very website you are looking at right now! The project leverages React.js's file patterns and component modularization as well as community packages for slider motions, typing effects, custom alerts, and smooth scrolling. Combined with Tailwind CSS and email.js as backend a small but fullstack project. Fun!",
 				technologies: [
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
@@ -347,7 +347,7 @@ export default {
 				github: 'https://github.com/marcluettecke/nexter',
 				websiteLink: 'https://marcluettecke.github.io/nexter/',
 				description:
-					'A practie website from an advanced CSS3 tutorial. This site uses vanilla HTML5 and CSS3 with object positioning via CSS Grids to mimic a slick layout of a realtor landing page. It is fully responsive for mobile and tablet.',
+					'A practice website from an advanced CSS3 tutorial. This site uses vanilla HTML5 and CSS3 with object positioning via CSS Grids to mimic a slick layout of a realtor landing page. It is fully responsive for mobile and tablet.',
 				technologies: [
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',

@@ -22,7 +22,7 @@ const Testimonials = () => {
 		<Carousel
 			swipeable={true}
 			showArrows={true}
-			infiniteLoop={true}
+			// infiniteLoop={true}
 			showThumbs={false}
 			showStatus={false}
 			// autoPlay={true}
