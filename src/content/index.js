@@ -735,7 +735,7 @@ export default {
 				]
 			},
 			{
-				name: 'Card mini game',
+				name: 'Python Card Game',
 				type: 'other',
 				screenshotLink: 'https://i.ibb.co/nRT9RPq/uno-cropped.jpg',
 				github: 'https://github.com/marcluettecke/unoGame',
