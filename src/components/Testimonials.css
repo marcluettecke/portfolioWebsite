@@ -39,9 +39,9 @@
 .App {
 	text-align: center;
 }
-.carousel.carousel-slider .control-arrow {
+/* .carousel.carousel-slider .control-arrow {
 	display: none !important;
-}
+} */
 
 @media only screen and (max-width: 1200px) {
 	.carousel .control-dots {

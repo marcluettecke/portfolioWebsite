@@ -169,13 +169,15 @@ export default {
 		layoutImage: process.env.PUBLIC_URL + '/assets/layoutImages/Coding_SVG.svg',
 		websites: [
 			{
-				name: 'Skateshop Landing Page',
-				type: 'frontend',
-				screenshotLink: 'https://i.ibb.co/98vyxNN/skate-Shop-cropped.jpg',
-				github: 'https://github.com/marcluettecke/skateshopSite',
-				websiteLink: 'https://skateshopcss.netlify.app/',
+				name: 'Personal CV',
+				type: 'both',
+				screenshotLink: 'https://i.ibb.co/zS9Kt0z/cv-cropped.jpg',
+				github: 'https://github.com/marcluettecke/cv/tree/master',
+				websiteLink: 'https://cvmarcluettecke.netlify.app/',
 				description:
-					'A fake Landing Page of a hypothetical skate shop built in vanilla HTML5 with CSS3. The focus of this project was to practice the placement without CSS techniques as Grid and Flexbox paired with some nice CSS animations.',
+					'A personal CV as website. The technologies used in this application are vanilla HTML5 and CSS3 with some minor functions in javascript. The website allows for a light and dark theme, and a direct "print to pdf" button, which saves a pdf of the selected theme as a one-pager.',
+				documentDownloadLink:
+					process.env.PUBLIC_URL + '/assets/documents/MarcLuettecke_CV.pdf',
 				technologies: [
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
@@ -186,6 +188,11 @@ export default {
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
 						alt: 'css',
 						documentation: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/js.png',
+						alt: 'js',
+						documentation: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
@@ -199,6 +206,7 @@ export default {
 					}
 				]
 			},
+
 			{
 				name: 'Portfolio',
 				type: 'frontend',
@@ -246,137 +254,7 @@ export default {
 				]
 			},
 			{
-				name: 'Weather App',
-				type: 'frontend',
-				screenshotLink: 'https://i.ibb.co/wSZ4sQ3/weather-App-cropped.jpg',
-				github: 'https://github.com/marcluettecke/weatherApp',
-				websiteLink: 'https://weather-app-angular11.netlify.app/',
-				description:
-					'A dummy weather App, fetching weather data from a public weather API, storing marked cities in a firebase backend and presenting the frontend built off an Angular design style. The styling utilizes Angular Material for custom input fields and an extensive data table with sorting, filtering, and pagination functionality.',
-				technologies: [
-					{
-						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
-						alt: 'html',
-						documentation: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5'
-					},
-					{
-						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
-						alt: 'css',
-						documentation: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
-					},
-					{
-						img: process.env.PUBLIC_URL + '/assets/stack_logos/ts.png',
-						alt: 'ts',
-						documentation: 'https://www.typescriptlang.org/'
-					},
-					{
-						img: process.env.PUBLIC_URL + '/assets/stack_logos/angular.png',
-						alt: 'angular',
-						documentation: 'https://angular.io/'
-					},
-					{
-						img: process.env.PUBLIC_URL + '/assets/stack_logos/firebase.png',
-						alt: 'firebase',
-						documentation: 'https://firebase.google.com/'
-					},
-					{
-						img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
-						alt: 'netlify',
-						documentation: 'https://www.netlify.com/'
-					},
-					{
-						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
-						alt: 'git',
-						documentation: 'https://git-scm.com/'
-					}
-				]
-			},
-			{
-				name: 'Memorial App',
-				type: 'frontend',
-				screenshotLink: 'https://i.ibb.co/WDvjny8/mamba-Mermories-cropped.jpg',
-				github: 'https://github.com/marcluettecke/MambaMemories',
-				websiteLink: 'https://mambamemories.herokuapp.com/',
-				description:
-					'This website mainly aims to practice basic backend (node.js) logic for user authentication, routing, and blog posting. HTML and CSS was used for basic styling, which remained a secondary concern in this project. The page represents a memorial app to post memories of the belated Kobe Bryant, who died in 2020.',
-				technologies: [
-					{
-						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
-						alt: 'html',
-						documentation: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5'
-					},
-					{
-						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
-						alt: 'css',
-						documentation: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
-					},
-					{
-						img: process.env.PUBLIC_URL + '/assets/stack_logos/js.png',
-						alt: 'js',
-						documentation: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
-					},
-					{
-						img: process.env.PUBLIC_URL + '/assets/stack_logos/node.png',
-						alt: 'node',
-						documentation: 'https://nodejs.org/en/'
-					},
-					{
-						img: process.env.PUBLIC_URL + '/assets/stack_logos/mongo.png',
-						alt: 'mongodb',
-						documentation: 'https://www.mongodb.com/'
-					},
-					{
-						img: process.env.PUBLIC_URL + '/assets/stack_logos/heroku.png',
-						alt: 'heroku',
-						documentation: 'https://www.heroku.com/home'
-					},
-					{
-						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
-						alt: 'git',
-						documentation: 'https://git-scm.com/'
-					}
-				]
-			},
-			{
-				name: 'Personal CV',
-				type: 'both',
-				screenshotLink: 'https://i.ibb.co/zS9Kt0z/cv-cropped.jpg',
-				github: 'https://github.com/marcluettecke/cv/tree/master',
-				websiteLink: 'https://cvmarcluettecke.netlify.app/',
-				description:
-					'A personal CV as website. The technologies used in this application are vanilla HTML5 and CSS3 with some minor functions in javascript. The website allows for a light and dark theme, and a direct "print to pdf" button, which saves a pdf of the selected theme as a one-pager.',
-				documentDownloadLink:
-					process.env.PUBLIC_URL + '/assets/documents/MarcLuettecke_CV.pdf',
-				technologies: [
-					{
-						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
-						alt: 'html',
-						documentation: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5'
-					},
-					{
-						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
-						alt: 'css',
-						documentation: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
-					},
-					{
-						img: process.env.PUBLIC_URL + '/assets/stack_logos/js.png',
-						alt: 'js',
-						documentation: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
-					},
-					{
-						img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
-						alt: 'netlify',
-						documentation: 'https://www.netlify.com/'
-					},
-					{
-						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
-						alt: 'git',
-						documentation: 'https://git-scm.com/'
-					}
-				]
-			},
-			{
-				name: 'Naklar.io tutoring',
+				name: 'Naklar.io',
 				type: 'frontend',
 				screenshotLink: 'https://i.ibb.co/b68cZBj/naklario-cropped.jpg',
 				github: 'https://github.com/naklar-io/naklar.io/tree/develop/frontend',
@@ -494,6 +372,131 @@ export default {
 					}
 				]
 			},
+			{
+				name: 'Weather App',
+				type: 'frontend',
+				screenshotLink: 'https://i.ibb.co/wSZ4sQ3/weather-App-cropped.jpg',
+				github: 'https://github.com/marcluettecke/weatherApp',
+				websiteLink: 'https://weather-app-angular11.netlify.app/',
+				description:
+					'A dummy weather App, fetching weather data from a public weather API, storing marked cities in a firebase backend and presenting the frontend built off an Angular design style. The styling utilizes Angular Material for custom input fields and an extensive data table with sorting, filtering, and pagination functionality.',
+				technologies: [
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
+						alt: 'html',
+						documentation: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5'
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
+						alt: 'css',
+						documentation: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/ts.png',
+						alt: 'ts',
+						documentation: 'https://www.typescriptlang.org/'
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/angular.png',
+						alt: 'angular',
+						documentation: 'https://angular.io/'
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/firebase.png',
+						alt: 'firebase',
+						documentation: 'https://firebase.google.com/'
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
+						alt: 'netlify',
+						documentation: 'https://www.netlify.com/'
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
+						alt: 'git',
+						documentation: 'https://git-scm.com/'
+					}
+				]
+			},
+
+			{
+				name: 'Skateshop Landing Page',
+				type: 'frontend',
+				screenshotLink: 'https://i.ibb.co/98vyxNN/skate-Shop-cropped.jpg',
+				github: 'https://github.com/marcluettecke/skateshopSite',
+				websiteLink: 'https://skateshopcss.netlify.app/',
+				description:
+					'A fake Landing Page of a hypothetical skate shop built in vanilla HTML5 with CSS3. The focus of this project was to practice the placement without CSS techniques as Grid and Flexbox paired with some nice CSS animations.',
+				technologies: [
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
+						alt: 'html',
+						documentation: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5'
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
+						alt: 'css',
+						documentation: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
+						alt: 'netlify',
+						documentation: 'https://www.netlify.com/'
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
+						alt: 'git',
+						documentation: 'https://git-scm.com/'
+					}
+				]
+			},
+			{
+				name: 'Memorial App',
+				type: 'frontend',
+				screenshotLink: 'https://i.ibb.co/WDvjny8/mamba-Mermories-cropped.jpg',
+				github: 'https://github.com/marcluettecke/MambaMemories',
+				websiteLink: 'https://mambamemories.herokuapp.com/',
+				description:
+					'This website mainly aims to practice basic backend (node.js) logic for user authentication, routing, and blog posting. HTML and CSS was used for basic styling, which remained a secondary concern in this project. The page represents a memorial app to post memories of the belated Kobe Bryant, who died in 2020.',
+				technologies: [
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
+						alt: 'html',
+						documentation: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5'
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
+						alt: 'css',
+						documentation: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/js.png',
+						alt: 'js',
+						documentation: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/node.png',
+						alt: 'node',
+						documentation: 'https://nodejs.org/en/'
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/mongo.png',
+						alt: 'mongodb',
+						documentation: 'https://www.mongodb.com/'
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/heroku.png',
+						alt: 'heroku',
+						documentation: 'https://www.heroku.com/home'
+					},
+					{
+						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
+						alt: 'git',
+						documentation: 'https://git-scm.com/'
+					}
+				]
+			},
+
 			{
 				name: 'Soccer Formations - Web App',
 				type: 'both',

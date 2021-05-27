@@ -48,7 +48,9 @@ const ProjectCard = props => {
 		<div className='card'>
 			<div className='face face1'>
 				<div className='content'>
-					<img src={props.websites.screenshotLink} alt='test' />
+					<a href={props.websites.websiteLink} target='_blank' rel='noopener noreferrer'>
+						<img src={props.websites.screenshotLink} alt='test' />
+					</a>
 					<div className='heading_container flex justify-between'>
 						<h3 className='text-white w-1/2'>{props.websites.name}</h3>
 						<div className='techlogos flex justify-center flex-wrap'>{logos}</div>
