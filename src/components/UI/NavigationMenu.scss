@@ -1,6 +1,6 @@
 .navMenu {
 	position: fixed;
-	height: min-content;
+	height: max-content;
 	bottom: 0;
 	width: 100%;
 	background: whitesmoke;
@@ -39,8 +39,8 @@
 
 .nav__item {
 	width: 50%;
-	padding: 5px 0;
-	margin: 5px 0;
+	padding: 10px 0;
+	margin: 10px 0;
 }
 
 .nav__link {

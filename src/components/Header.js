@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import Typical from 'react-typical';
 import Button from './UI/Button';
+import './Header.css';
 
 import content from '../content/index';
 
@@ -20,7 +21,11 @@ export default function Header(props) {
 		>
 			<div className='w-9/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between'>
 				<div className='w-full md:w-2/5 flex justify-center '>
-					<img src={content.header.img} alt={content.header.imgAlt} />
+					<img
+						src={content.header.img}
+						alt={content.header.imgAlt}
+						className='profile_picture'
+					/>
 				</div>
 				<div className='text-white font-dosis text-center md:text-left'>
 					<h2

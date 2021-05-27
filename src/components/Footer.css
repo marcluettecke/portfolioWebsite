@@ -59,6 +59,6 @@
 
 @media screen and (max-width: 500px) {
 	.footer-basic {
-		margin-bottom: 72px;
+		padding-bottom: 72px;
 	}
 }
