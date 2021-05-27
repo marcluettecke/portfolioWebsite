@@ -1,0 +1,26 @@
+.img {
+	height: 80px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	filter: grayscale(100%);
+	/* background-image: url('https://unsplash.it/400/500'); */
+}
+
+.img:hover {
+	transition: all 0.4s ease-in-out;
+	transform: translateY(-7px);
+	filter: none;
+}
+
+@media screen and (min-width: 1500px) {
+	.img {
+		height: 120px;
+	}
+}
+
+@media screen and (max-width: 1300px) {
+	.img {
+		filter: none;
+	}
+}

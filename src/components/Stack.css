@@ -1,0 +1,27 @@
+.stack_container {
+	display: flex;
+}
+
+#stack_logos {
+	margin: 0 5vw;
+	max-width: 40vw;
+}
+
+.layoutImage_stack {
+	width: 70vw;
+	height: auto;
+	display: inline-block;
+}
+
+@media screen and (max-width: 1300px) {
+	.stack_container {
+		width: 100%;
+	}
+
+	#stack_logos {
+		max-width: 90vw;
+	}
+	.layoutImage_stack_container {
+		display: none;
+	}
+}
