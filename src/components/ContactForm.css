@@ -263,6 +263,11 @@ textarea:focus {
 		justify-content: space-between;
 		align-items: center;
 	}
+
+	#button_field {
+		display: flex;
+		justify-content: flex-start;
+	}
 }
 
 .error-text {
