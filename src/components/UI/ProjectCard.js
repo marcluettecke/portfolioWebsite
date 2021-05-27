@@ -57,14 +57,7 @@ const ProjectCard = props => {
 			</div>
 			<div className='face face2'>
 				<div className='content'>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque
-						minus iste veritatis provident at. Lorem ipsum dolor sit amet consectetur
-						adipisicing elit. Quas cum cumque minus iste veritatis provident at. Lorem
-						ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus
-						iste veritatis provident at. Lorem ipsum dolor sit amet consectetur
-						adipisicing elit.
-					</p>
+					<p>{props.websites.description}</p>
 					<div className='actions flex justify-end'>
 						{firstButton}
 						<a href={props.websites.github} target='_blank' rel='noopener noreferrer'>

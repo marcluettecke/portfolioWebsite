@@ -174,6 +174,8 @@ export default {
 				screenshotLink: 'https://i.ibb.co/98vyxNN/skate-Shop-cropped.jpg',
 				github: 'https://github.com/marcluettecke/skateshopSite',
 				websiteLink: 'https://skateshopcss.netlify.app/',
+				description:
+					'A fake Landing Page of a hypothetical skate shop built in vanilla HTML5 with CSS3. The focus of this project was to practice the placement without CSS techniques as Grid and Flexbox paired with some nice CSS animations.',
 				technologies: [
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
@@ -203,6 +205,8 @@ export default {
 				screenshotLink: 'https://i.ibb.co/zW37tcB/portfolio-cropped.jpg',
 				github: 'https://github.com/marcluettecke/portfolioWebsite',
 				websiteLink: '',
+				description:
+					"This website you are seeing right now. The project leverages React.js's file patterns and component modularization. Distinct packages for slider motions, typing effects, custom alerts, and smooth scrolling combined with Tailwind CSS as backbones of this website.",
 				technologies: [
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
@@ -247,6 +251,8 @@ export default {
 				screenshotLink: 'https://i.ibb.co/wSZ4sQ3/weather-App-cropped.jpg',
 				github: 'https://github.com/marcluettecke/weatherApp',
 				websiteLink: 'https://weather-app-angular11.netlify.app/',
+				description:
+					'A dummy weather App, fetching weather data from a public weather API, storing marked cities in a firebase backend and presenting the frontend built off an Angular design style. The styling utilizes Angular Material for custom input fields and an extensive data table with sorting, filtering, and pagination functionality.',
 				technologies: [
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
@@ -291,6 +297,8 @@ export default {
 				screenshotLink: 'https://i.ibb.co/WDvjny8/mamba-Mermories-cropped.jpg',
 				github: 'https://github.com/marcluettecke/MambaMemories',
 				websiteLink: 'https://mambamemories.herokuapp.com/',
+				description:
+					'This website mainly aims to practice basic backend (node.js) logic for user authentication, routing, and blog posting. HTML and CSS was used for basic styling, which remained a secondary concern in this project. The page represents a memorial app to post memories of the belated Kobe Bryant, who died in 2020.',
 				technologies: [
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
@@ -335,6 +343,8 @@ export default {
 				screenshotLink: 'https://i.ibb.co/zS9Kt0z/cv-cropped.jpg',
 				github: 'https://github.com/marcluettecke/cv/tree/master',
 				websiteLink: 'https://cvmarcluettecke.netlify.app/',
+				description:
+					'A personal CV as website. The technologies used in this application are vanilla HTML5 and CSS3 with some minor functions in javascript. The website allows for a light and dark theme, and a direct "print to pdf" button, which saves a pdf of the selected theme as a one-pager.',
 				documentDownloadLink:
 					process.env.PUBLIC_URL + '/assets/documents/MarcLuettecke_CV.pdf',
 				technologies: [
@@ -371,6 +381,8 @@ export default {
 				screenshotLink: 'https://i.ibb.co/b68cZBj/naklario-cropped.jpg',
 				github: 'https://github.com/naklar-io/naklar.io/tree/develop/frontend',
 				websiteLink: 'https://naklar.io/',
+				description:
+					'A German tutoring NGO, which was build as a support for Corona plagued students, who need help with their schoolwork in homeschool. We helped with a dashboard functionality for the tutors, indicating progress, achievements, etc. The entire app is built in Angular and finds a native translation via Ionic. I am mainly responsible for frontend implementations (Angular + CSS3) for the new data.',
 				technologies: [
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
@@ -410,6 +422,8 @@ export default {
 				screenshotLink: 'https://i.ibb.co/VTDTGdV/reactmeals-cropped.jpg',
 				github: 'https://github.com/marcluettecke/ReactMeals',
 				websiteLink: 'https://reactmealspractice.netlify.app/',
+				description:
+					'This website represents an online class project of a React App, which fetches meal data from a Firebase backend. It leverages custom hooks, asynchronous programming, and basic state management via Context API in React.',
 				technologies: [
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
@@ -454,6 +468,8 @@ export default {
 				screenshotLink: 'https://i.ibb.co/c8Bd77j/nexter-cropped.jpg',
 				github: 'https://github.com/marcluettecke/nexter',
 				websiteLink: 'https://marcluettecke.github.io/nexter/',
+				description:
+					'A practie website from an advanced CSS3 tutorial. This site uses vanilla HTML5 and CSS3 with object positioning via CSS Grids to mimic a slick layout of a realtor landing page. It is fully responsive for mobile and tablet.',
 				technologies: [
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
@@ -484,6 +500,8 @@ export default {
 				screenshotLink: 'https://i.ibb.co/txrdXTb/soccer-Formations.jpg',
 				github: 'https://github.com/marcluettecke/soccerFormationsFrontend/tree/master',
 				websiteLink: 'https://soccerformations.netlify.app/',
+				description:
+					'The frontend implementation of my Master Thesis to visualize soccer formations. The user can change the visualization granularity over multiple tabs, integrating custom-built visualizations in D3.js. The overall frontend layout was achieved in an Angular App with organic typescript usage.',
 				documentDownloadLink:
 					process.env.PUBLIC_URL + '/assets/documents/MarcLuettecke_Thesis.pdf',
 				technologies: [
@@ -530,6 +548,8 @@ export default {
 				screenshotLink: 'https://i.ibb.co/pjmkD8k/statscard-cropped.jpg',
 				github: 'https://github.com/marcluettecke/FrontendMentorChallenges/tree/main/StatsCard',
 				websiteLink: 'https://statscard.netlify.app/',
+				description:
+					"A simple challenge from www.frontendmentor.com, which offers a style and design guide to mimic the developer experience in a business setting. For this beginner's challenge a simple business card with responsive design was implemented in vanilla HTML5 and CSS3.",
 				technologies: [
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
@@ -560,6 +580,8 @@ export default {
 				screenshotLink: 'https://i.ibb.co/kcT5bVv/baseapparel-cropped.jpg',
 				github: 'https://github.com/marcluettecke/FrontendMentorChallenges/tree/main/BaseApparelComingSoon',
 				websiteLink: 'https://basesapparelcomingsoonsite.netlify.app/',
+				description:
+					'Yet another challenge from www.frontendmentor.com which illustrates a filler page for a "Business Coming Soon" banner. Vanilla HTML5 and CSS3 achieves the responsive nature as well as simple validation feedback to the user for an email input.',
 				technologies: [
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
@@ -590,6 +612,8 @@ export default {
 				screenshotLink: 'https://i.ibb.co/kgvR0b9/three-Column-Grid-cropped.jpg',
 				github: 'https://github.com/marcluettecke/FrontendMentorChallenges/tree/main/ThreeColumnGrid',
 				websiteLink: 'https://threecolumngrid.netlify.app/',
+				description:
+					'A three column layout which serves as basic practice for responsive designs with CSS Flexbox from www.frontendmentor.com. The project was solved in vanilla HTML5 and CSS3.',
 				technologies: [
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
@@ -621,6 +645,8 @@ export default {
 				github: 'https://github.com/marcluettecke/soccerFormationsBackend',
 				documentDownloadLink:
 					process.env.PUBLIC_URL + '/assets/documents/MarcLuettecke_Thesis.pdf',
+				description:
+					"The backend portion of my Master's thesis. It handles the data fetching, cleaning and processingf steps in Python. The database for the large datasets of geospatial data is loaded from a Postgres SQL Database. More details about the implemented calculation logic can be found in the accompanying github repository.",
 				technologies: [
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/python.png',
@@ -653,6 +679,8 @@ export default {
 				documentDownloadLink:
 					process.env.PUBLIC_URL +
 					'/assets/documents/MarcLuettecke_SS_classification.pdf',
+				description:
+					'A class project which compares different neural network architectures in classification accuracy for single sentence classification tasks. Especially with small input data, the data hungry architectures require a lot of fine-tuning to retrieve the required features to make reasonable assumptions. The classifiers are implemented in Python utilzing Keras or Tensorflow libraries.',
 				technologies: [
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/python.png',
@@ -683,6 +711,8 @@ export default {
 				github: 'https://github.com/marcluettecke/rent_data_germany',
 				documentDownloadLink:
 					process.env.PUBLIC_URL + '/assets/documents/MarcLuettecke_rent_paper.pdf',
+				description:
+					'This visualization project asks the question "Are the notoriously expensive cities in Germany, really the most expensive ones?". The analysis aligns relative purchasing power and cost of living indicators with scraped rent data (all in Python) to create an interactive map in R\'s leaflet package',
 				technologies: [
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/python.png',
@@ -706,6 +736,8 @@ export default {
 				type: 'other',
 				screenshotLink: 'https://i.ibb.co/nRT9RPq/uno-cropped.jpg',
 				github: 'https://github.com/marcluettecke/unoGame',
+				description:
+					'Toy example of the common card game "Mau Mau" in vanilla Python. The game includes simple computer logic and allows for Computer vs. Computer and Human vs. Computer modes of varying difficulties.',
 				technologies: [
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/python.png',
