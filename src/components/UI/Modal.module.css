@@ -67,6 +67,7 @@
 @media (max-width: 1600px) {
 	.modal {
 		left: 3vw;
+		margin-right: 3vw;
 	}
 }
 
