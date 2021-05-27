@@ -56,3 +56,9 @@
 	font-size: 13px;
 	margin-bottom: 0;
 }
+
+@media screen and (max-width: 500px) {
+	.footer-basic {
+		margin-bottom: 72px;
+	}
+}

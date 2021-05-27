@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
+import NavigationMenu from './components/UI/NavigationMenu';
 // import IconLabelTabs from './components/IconLabelTabs';
 import Partners from './components/Partners';
 import SectionSeparation from './components/UI/SectionSeparation';
@@ -25,7 +26,12 @@ import {
 	faPhone,
 	faMapMarkerAlt,
 	faCode,
-	faFilePdf
+	faFilePdf,
+	faBorderAll,
+	faProjectDiagram,
+	faUserCheck,
+	faLaptopCode,
+	faThumbsUp
 } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
@@ -47,7 +53,12 @@ library.add(
 	faPhone,
 	faMapMarkerAlt,
 	faCode,
-	faFilePdf
+	faFilePdf,
+	faBorderAll,
+	faProjectDiagram,
+	faUserCheck,
+	faLaptopCode,
+	faThumbsUp
 );
 
 const App = () => {
@@ -70,7 +81,7 @@ const App = () => {
 		});
 		setTimeout(() => {
 			setIsLoading(false);
-		}, 3000);
+		}, 0);
 	}, []);
 	return (
 		<ThemeProvider theme={theme}>
@@ -79,15 +90,36 @@ const App = () => {
 			{!isLoading && (
 				<div>
 					<Navigation onShowForm={showFormHandler} />
+					<NavigationMenu />
 					<Header onClose={hideFormHandler} onLinkToCv={linkToCvHandler} />
-					<SectionSeparation text={'Projects'} direction={'left'} />
+					<SectionSeparation
+						shortText={'Projects'}
+						longText={'Projects I contributed to'}
+						direction={'left'}
+						id={'projects_nav'}
+					/>
 					<Projects category={'all'} />
-					<SectionSeparation text={'Partners'} direction={'right'} />
+					<SectionSeparation
+						shortText={'Partners'}
+						longText={'Partners who have trusted me in the past'}
+						direction={'right'}
+						id={'partners_nav'}
+					/>
 					<Partners category={'all'} />
-					<SectionSeparation text={'Technologies'} direction={'left'} />
+					<SectionSeparation
+						shortText={'Technologies'}
+						longText={'Technologies I have worked with'}
+						direction={'left'}
+						id={'technologies_nav'}
+					/>
 
 					<Stack />
-					<SectionSeparation text={'Testimonials'} direction={'right'} />
+					<SectionSeparation
+						shortText={'Testimonials'}
+						longText={'Testimnonials by former employers'}
+						direction={'right'}
+						id={'testimonials_nav'}
+					/>
 					<Testimonials />
 					<Footer onShowForm={showFormHandler} />
 				</div>

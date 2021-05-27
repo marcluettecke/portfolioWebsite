@@ -38,28 +38,26 @@ const Projects = () => {
 	return (
 		<div className='projects_container'>
 			<div className='font-dosis text-center' id='projects'>
-				<div className='mt-10'>
-					<Carousel
-						swipeable={true}
-						draggable={true}
-						responsive={responsive}
-						infinite={true}
-						// centerMode={true}
-						ssr={true} // means to render carousel on server-side.
-						// autoPlay={deviceType !== 'mobile' ? true : false}
-						// autoPlay={true}
-						// autoPlaySpeed={5000}
-						keyBoardControl={true}
-						containerClass='carousel-container'
-						// removeArrowOnDeviceType={['mobile']}
-						// deviceType={deviceType}
-						dotListClass='custom-dot-list-style'
-						// itemClass='mb-20'
-						className='carousel_container'
-					>
-						{slides}
-					</Carousel>
-				</div>
+				<Carousel
+					swipeable={true}
+					draggable={true}
+					responsive={responsive}
+					infinite={true}
+					// centerMode={true}
+					ssr={true} // means to render carousel on server-side.
+					// autoPlay={deviceType !== 'mobile' ? true : false}
+					// autoPlay={true}
+					// autoPlaySpeed={5000}
+					keyBoardControl={true}
+					containerClass='carousel-container'
+					// removeArrowOnDeviceType={['mobile']}
+					// deviceType={deviceType}
+					dotListClass='custom-dot-list-style'
+					// itemClass='mb-20'
+					className='carousel_container'
+				>
+					{slides}
+				</Carousel>
 			</div>
 			<div className='pr-20 ml-10 layoutImage_projects_container'>
 				<img

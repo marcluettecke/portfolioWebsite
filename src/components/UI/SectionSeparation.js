@@ -1,8 +1,26 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import classes from './SectionSeparation.module.css';
 
 const SectionSeparation = props => {
+	const [windowWidth, setWindowWidth] = useState(0);
 	let directionProperties;
+
+	useEffect(() => {
+		const handleResize = () => {
+			setWindowWidth(window.innerWidth);
+		};
+		window.addEventListener('resize', handleResize);
+		handleResize();
+
+		return () => window.removeEventListener('resize', handleResize);
+	}, []);
+
+	let separatorText;
+	if (windowWidth < 768) {
+		separatorText = <span className='bg-white uppercase  px-5'>{props.shortText}</span>;
+	} else {
+		separatorText = <span className='bg-white px-5'>{props.longText}</span>;
+	}
 
 	props.direction === 'left'
 		? (directionProperties = {
@@ -24,8 +42,9 @@ const SectionSeparation = props => {
 				<h2
 					data-aos={`${directionProperties.animation}`}
 					className={`md:mt-20 md:mb-10 text-3xl md:text-4xl mt-16 mb-8 text-gray-600 w-full ${directionProperties.textAlignment} ${classes.header_separator}`}
+					id={props.id}
 				>
-					<span className='bg-white  px-5'>{props.text}</span>
+					{separatorText}
 				</h2>
 			</div>
 		</div>

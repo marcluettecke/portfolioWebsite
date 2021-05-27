@@ -6,7 +6,7 @@ import content from '../content/index';
 
 const Footer = props => {
 	return (
-		<div className='footer-basic text-gray-500 flex justify-center'>
+		<div id='footer-basic' className='footer-basic text-gray-500 flex justify-center'>
 			<footer>
 				<div
 					className='mb-10 flex justify-center'

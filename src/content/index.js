@@ -2,6 +2,7 @@ export default {
 	nav: {
 		// logo: 'ML',
 		logo: 'https://i.ibb.co/T40gXmx/White-logo-no-background.png',
+		logoDark: 'https://i.ibb.co/fxXf355/Color-logo-no-background.png',
 		links: [{ text: 'Contact', to: 'mycontact' }]
 	},
 	header: {
@@ -142,6 +143,12 @@ export default {
 				image: process.env.PUBLIC_URL + '/assets/testimonials_images/levendis_bw.png',
 				job: 'Professor',
 				text: "I first met Marc when he was taking my Business Statistics class in the Fall of 2011. He was my best student by far. As they say, it wasn't even close. He mastered material so well, in fact, that he would tutor his classmates on statistics. Several of his classmates would not have passed were it not for his help."
+			},
+			{
+				name: 'Dr. Sam Kruger',
+				image: process.env.PUBLIC_URL + '/assets/testimonials_images/kruger_bw.png',
+				job: 'Professor',
+				text: 'Marc conducted research for me during his time as a Ph.D student at UT. While he was exceedingly reliable, proactive and enthusiastic about his assignments, what most stood out was his focus on offering the highest level of work possible. I would hire him again in a heartbeat.'
 			},
 
 			{
