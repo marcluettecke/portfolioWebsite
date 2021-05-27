@@ -81,7 +81,7 @@ const App = () => {
 		});
 		setTimeout(() => {
 			setIsLoading(false);
-		}, 0);
+		}, 1500);
 	}, []);
 	return (
 		<ThemeProvider theme={theme}>

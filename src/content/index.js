@@ -92,7 +92,7 @@ export default {
 				url: 'https://www.loyno.edu/'
 			},
 			{
-				img: process.env.PUBLIC_URL + '/assets/partner_logos/uni_heidelberg.png',
+				img: process.env.PUBLIC_URL + '/assets/partner_logos/uni_heidelberg.jpg',
 				alt: 'heidelberg',
 				widthMd: '160',
 				widthLg: '240',
