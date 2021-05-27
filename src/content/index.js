@@ -33,7 +33,7 @@ export default {
 				widthMd: '240',
 				widthLg: '320',
 				height: '60',
-				url: 'www.subsequent.ai'
+				url: 'https://subsequent.ai/'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/partner_logos/techlabs.png',
