@@ -175,7 +175,7 @@ export default {
 				github: 'https://github.com/marcluettecke/cv/tree/master',
 				websiteLink: 'https://cvmarcluettecke.netlify.app/',
 				description:
-					'A personal CV as website. The technologies used in this application are vanilla HTML5 and CSS3 with some minor functions in javascript. The website allows for a light and dark theme, and a direct "print to pdf" button, which saves a pdf of the selected theme as a one-pager.',
+					'Why not build your CV as a website? The entire project is coded in vanilla HTML5 and CSS3 with some minor functions in javascript. The website allows for a light and dark theme, and a direct "print to pdf" button, which saves a pdf of the selected theme as a one-pager.',
 				documentDownloadLink:
 					process.env.PUBLIC_URL + '/assets/documents/MarcLuettecke_CV.pdf',
 				technologies: [
@@ -214,7 +214,7 @@ export default {
 				github: 'https://github.com/marcluettecke/portfolioWebsite',
 				websiteLink: 'https://portfoliomarcluettecke.netlify.app/',
 				description:
-					"This website you are seeing right now. The project leverages React.js's file patterns and component modularization. Distinct packages for slider motions, typing effects, custom alerts, and smooth scrolling combined with Tailwind CSS as backbones of this website.",
+					"This very website you are looking at right now! The project leverages React.js's file patterns and component modularization as well as community packages for slider motions, typing effects, custom alerts, and smooth scrolling. Combined with Tailwind CSS and email.js as backend a small but fullstack project. Fun!",
 				technologies: [
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
@@ -260,7 +260,7 @@ export default {
 				github: 'https://github.com/naklar-io/naklar.io/tree/develop/frontend',
 				websiteLink: 'https://naklar.io/',
 				description:
-					'A German tutoring NGO, which was build as a support for Corona plagued students, who need help with their schoolwork in homeschool. We helped with a dashboard functionality for the tutors, indicating progress, achievements, etc. The entire app is built in Angular and finds a native translation via Ionic. I am mainly responsible for frontend implementations (Angular + CSS3) for the new data.',
+					'This web application comes from a German-based NGO, who set out to help Corona-plagued students with homeschooling. I helped with dashboard functionalities for its tutors, indicating progress, achievements, etc. The entire app is built in Angular and finds a native translation via Ionic. My main responsibility lies in frontend visualizations (Angular + CSS3) of data.',
 				technologies: [
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
