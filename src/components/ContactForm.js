@@ -86,7 +86,7 @@ const ContactForm = props => {
 			return;
 		}
 		generateContactNumber();
-		sendForm('default_service', 'template_330lnwiX', '#contact_form').then(
+		sendForm('default_service', 'template_330lnwi', '#contact_form').then(
 			function (response) {
 				Swal.fire({
 					icon: 'success',
