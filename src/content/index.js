@@ -204,7 +204,7 @@ export default {
 				type: 'frontend',
 				screenshotLink: 'https://i.ibb.co/zW37tcB/portfolio-cropped.jpg',
 				github: 'https://github.com/marcluettecke/portfolioWebsite',
-				websiteLink: '',
+				websiteLink: 'https://portfoliomarcluettecke.netlify.app/',
 				description:
 					"This website you are seeing right now. The project leverages React.js's file patterns and component modularization. Distinct packages for slider motions, typing effects, custom alerts, and smooth scrolling combined with Tailwind CSS as backbones of this website.",
 				technologies: [
@@ -328,7 +328,7 @@ export default {
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/heroku.png',
 						alt: 'heroku',
-						documentation: 'https://dashboard.heroku.com/'
+						documentation: 'https://www.heroku.com/home'
 					},
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
@@ -851,7 +851,7 @@ export default {
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/heroku.png',
 				alt: 'heroku',
-				documentation: 'https://dashboard.heroku.com/'
+				documentation: 'https://www.heroku.com/home'
 			},
 			{
 				img: process.env.PUBLIC_URL + '/assets/stack_logos/R.svg',
