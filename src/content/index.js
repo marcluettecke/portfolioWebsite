@@ -123,44 +123,50 @@ export default {
 			{
 				name: 'Dr. Mehmet Dicle',
 				image: process.env.PUBLIC_URL + '/assets/testimonials_images/dicle.png',
-				job: 'Associate Professor',
+				job: 'Associate Professor Loyola',
 				text: 'Mr. Luettecke is one of the best students I had, we hired him as a finance tutor at our college. He actually had a waiting list. My MBA students are scheduling appointments with him. I am receiving high praises and very positive emails about his teaching.'
+			},
+			{
+				name: 'Dr. Manuel Stein',
+				image: process.env.PUBLIC_URL + '/assets/testimonials_images/stein_bw.png',
+				job: 'CEO Subsequent',
+				text: 'With his combined knowledge of coding, data analysis and finance, Marc filled exactly the gap for which we had previously been unable to identify a desired candidate for months. Marc contributed to the EXIST application in many ways and played a major role in us receiving a positive funding decision [...] in 2020.'
 			},
 			{
 				name: 'Dr. Karsten Donnay',
 				image: process.env.PUBLIC_URL + '/assets/testimonials_images/donnay.png',
-				job: 'Professor',
+				job: 'Professor UZH',
 				text: "Marc's way of working is characterized to a very high extent by his systematic approach, sense of responsibility and determination, which lead to excellent solutions. Due to his very high commitment, he always delivers his work results on time and in very good quality at any time."
 			},
 			{
 				name: 'Daniel Demleitner',
 				image: process.env.PUBLIC_URL + '/assets/testimonials_images/demleitner_bw.png',
-				job: 'Senior Manager',
+				job: 'Senior Manager KPMG',
 				text: 'Marc has a very quick perception and is always characterized by very good organizational, analytical and judgmental skills. He has an excellent ability to successfully apply his extensive, in-depth professional knowledge and experience to new situations for the benefit of the team.'
 			},
 			{
 				name: 'Dr. John Levendis',
 				image: process.env.PUBLIC_URL + '/assets/testimonials_images/levendis_bw.png',
-				job: 'Professor',
+				job: 'Professor Loyola',
 				text: "I first met Marc when he was taking my Business Statistics class in the Fall of 2011. He was my best student by far. As they say, it wasn't even close. He mastered material so well, in fact, that he would tutor his classmates on statistics. Several of his classmates would not have passed were it not for his help."
 			},
 			{
 				name: 'Dr. Sam Kruger',
 				image: process.env.PUBLIC_URL + '/assets/testimonials_images/kruger_bw.png',
-				job: 'Professor',
+				job: 'Professor UT Austin',
 				text: 'Marc conducted research for me during his time as a Ph.D student at UT. While he was exceedingly reliable, proactive and enthusiastic about his assignments, what most stood out was his focus on offering the highest level of work possible. I would hire him again in a heartbeat.'
 			},
 
 			{
 				name: 'Dr. Ron Christner',
 				image: process.env.PUBLIC_URL + '/assets/testimonials_images/christner.png',
-				job: 'Ex Department Chair',
+				job: 'Ex Department Chair Loyola',
 				text: 'Marc is very personable and also asked some of the most insightful and challenging questions about Investments and other topics that I have ever encountered in my many years of teaching. In summary Marc is exceptional as a person and a scholar.'
 			},
 			{
 				name: 'Michael Giusti',
 				image: process.env.PUBLIC_URL + '/assets/testimonials_images/giusti_bw.png',
-				job: 'Department Chair / Senior Editor',
+				job: 'Department Chair / Senior Editor Maroon',
 				text: "Marc is a model of who I hope to hire in my business office. Marc is personable, he is intelligent, and most importantly, he is reliable. I have worked with Marc for six months now, and during those six months, my only regret is that I didn't meet him sooner in his college career."
 			}
 		]
@@ -214,7 +220,7 @@ export default {
 				github: 'https://github.com/marcluettecke/portfolioWebsite',
 				websiteLink: 'https://portfoliomarcluettecke.netlify.app/',
 				description:
-					"The very website you are looking at right now! The project leverages React.js's file patterns and component modularization as well as community packages for slider motions, typing effects, custom alerts, and smooth scrolling. Combined with Tailwind CSS and email.js as backend a small but fullstack project. Fun!",
+					"The very website you are looking at right now! The project leverages React.js's file patterns and component modularization as well as community packages for slider motions, typing effects, custom alerts, and smooth scrolling. Combined with Tailwind CSS and email.js as backend this results in a small but fullstack project. Fun!",
 				technologies: [
 					{
 						img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
