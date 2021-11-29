@@ -141,7 +141,7 @@ const ContactForm = props => {
 					</div>
 					<div className='icon_text'>
 						<a
-							href='https://www.google.de/maps/place/Hamm/@51.6613332,7.7660211,12z/data=!3m1!4b1!4m5!3m4!1s0x47b9715892e844d5:0x427f28131548770!8m2!3d51.6738583!4d7.8159817'
+							href='https://www.google.com/maps/place/Cologne/@50.9573677,6.6871441,10z/data=!3m1!4b1!4m5!3m4!1s0x47bf259169ab2fe5:0x42760fc4a2a77f0!8m2!3d50.937531!4d6.9602786'
 							target='_blank'
 							rel='noopener noreferrer'
 						>

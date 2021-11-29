@@ -4,11 +4,12 @@
 	background-size: contain;
 	background-position: center;
 	filter: grayscale(100%);
+  transition: transform 600ms;
 	/* background-image: url('https://unsplash.it/400/500'); */
 }
 
 .img:hover {
-	transition: all 0.4s ease-in-out;
+	transition: all 400ms ease-in-out;
 	transform: translateY(-7px);
 	filter: none;
 }
