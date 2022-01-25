@@ -175,6 +175,52 @@ export default {
     layoutImage: process.env.PUBLIC_URL + '/assets/layoutImages/Coding_SVG.svg',
     websites: [
       {
+        name: 'Product Management system',
+        type: 'frontend',
+        screenshotLink: 'https://i.ibb.co/TgC1g96/google-Taxonomy-Screenshot.png',
+        github: 'https://github.com/marcluettecke/googleTaxonomy',
+        websiteLink: 'https://googletaxonomy.netlify.app/',
+        description:
+          "A website to present an interaction interface for a product management system based off Google's Product Taxonomy. This (exclusively desktop styled) website allows for authorization, user interaction with the data locally, as well as storing the updated data online in a Firestore Cloud Backend. Use the user credentials 'Marc' with password 'SICK' to get started.",
+        technologies: [
+          {
+            img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
+            alt: 'html',
+            documentation: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5'
+          },
+          {
+            img: process.env.PUBLIC_URL + '/assets/stack_logos/css3.png',
+            alt: 'css',
+            documentation: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
+          },
+          {
+            img: process.env.PUBLIC_URL + '/assets/stack_logos/ts.png',
+            alt: 'ts',
+            documentation: 'https://www.typescriptlang.org/'
+          },
+          {
+            img: process.env.PUBLIC_URL + '/assets/stack_logos/angular.png',
+            alt: 'angular',
+            documentation: 'https://angular.io/'
+          },
+          {
+            img: process.env.PUBLIC_URL + '/assets/stack_logos/firebase.png',
+            alt: 'firebase',
+            documentation: 'https://firebase.google.com/'
+          },
+          {
+            img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
+            alt: 'netlify',
+            documentation: 'https://www.netlify.com/'
+          },
+          {
+            img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
+            alt: 'git',
+            documentation: 'https://git-scm.com/'
+          }
+        ]
+      },
+      {
         name: 'Personal CV',
         type: 'both',
         screenshotLink: 'https://i.ibb.co/zS9Kt0z/cv-cropped.jpg',
@@ -239,6 +285,21 @@ export default {
             img: process.env.PUBLIC_URL + '/assets/stack_logos/angular.png',
             alt: 'angular',
             documentation: 'https://angular.io/'
+          },
+          {
+            img: process.env.PUBLIC_URL + '/assets/stack_logos/firebase.png',
+            alt: 'firebase',
+            documentation: 'https://firebase.google.com/'
+          },
+          {
+            img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
+            alt: 'netlify',
+            documentation: 'https://www.netlify.com/'
+          },
+          {
+            img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
+            alt: 'git',
+            documentation: 'https://git-scm.com/'
           }
         ]
       },
