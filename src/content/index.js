@@ -543,22 +543,6 @@ export default {
             img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
             alt: 'git',
             documentation: 'https://git-scm.com/'
-          },
-
-          {
-            img: process.env.PUBLIC_URL + '/assets/stack_logos/firebase.png',
-            alt: 'firebase',
-            documentation: 'https://firebase.google.com/'
-          },
-          {
-            img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
-            alt: 'netlify',
-            documentation: 'https://www.netlify.com/'
-          },
-          {
-            img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
-            alt: 'git',
-            documentation: 'https://git-scm.com/'
           }
         ]
       },
