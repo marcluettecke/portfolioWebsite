@@ -175,7 +175,7 @@ export default {
     layoutImage: process.env.PUBLIC_URL + '/assets/layoutImages/Coding_SVG.svg',
     websites: [
       {
-        name: 'Product Management system',
+        name: 'Product Mgmt system',
         type: 'frontend',
         screenshotLink: 'https://i.ibb.co/TgC1g96/google-Taxonomy-Screenshot.png',
         github: 'https://github.com/marcluettecke/googleTaxonomy',
@@ -437,13 +437,15 @@ export default {
         ]
       },
       {
-        name: 'Realtor Landing Page',
-        type: 'frontend',
-        screenshotLink: 'https://i.ibb.co/c8Bd77j/nexter-cropped.jpg',
-        github: 'https://github.com/marcluettecke/nexter',
-        websiteLink: 'https://marcluettecke.github.io/nexter/',
+        name: 'Github Repo Scraper',
+        type: 'other',
+        screenshotLink: 'https://i.ibb.co/p3JhW1D/githuprepos.png',
+        github: 'https://github.com/marcluettecke/githubRepos/tree/develop',
         description:
-          'A practice website from an advanced CSS3 tutorial. This site uses vanilla HTML5 and CSS3 with object positioning via CSS Grids to mimic a slick layout of a realtor landing page. It is fully responsive for mobile and tablet.',
+          'This project aims to mimic a basic interaction with an interactive data fetching service. Github provides one of the ' +
+          'largest project interaction systems of the world. It hosts numerous widely used repositories which we will explore in this simple application.' +
+          'The main purpose of the project is tos illustrate the benefits but also the limitations of the open data API ' +
+          'and how to potentially overcome them for your own project. Have fun!',
         technologies: [
           {
             img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
@@ -455,12 +457,22 @@ export default {
             alt: 'css',
             documentation: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
           },
-
           {
-            img: process.env.PUBLIC_URL + '/assets/stack_logos/netlify.png',
-            alt: 'netlify',
-            documentation: 'https://www.netlify.com/'
+            img: process.env.PUBLIC_URL + '/assets/stack_logos/ts.png',
+            alt: 'ts',
+            documentation: 'https://www.typescriptlang.org/'
           },
+          {
+            img: process.env.PUBLIC_URL + '/assets/stack_logos/angular.png',
+            alt: 'angular',
+            documentation: 'https://angular.io/'
+          },
+          {
+            img: process.env.PUBLIC_URL + '/assets/stack_logos/flask.jpg',
+            alt: 'flask',
+            documentation: 'https://flask.palletsprojects.com/en/2.0.x/'
+          },
+
           {
             img: process.env.PUBLIC_URL + '/assets/stack_logos/git.png',
             alt: 'git',
@@ -769,6 +781,11 @@ export default {
         img: process.env.PUBLIC_URL + '/assets/stack_logos/postgres.png',
         alt: 'postgres',
         documentation: 'https://www.postgresql.org/'
+      },
+      {
+        img: process.env.PUBLIC_URL + '/assets/stack_logos/flask.jpg',
+        alt: 'flask',
+        documentation: 'https://flask.palletsprojects.com/en/2.0.x/'
       },
       {
         img: process.env.PUBLIC_URL + '/assets/stack_logos/html2.png',
