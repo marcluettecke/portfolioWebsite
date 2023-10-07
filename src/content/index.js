@@ -11,7 +11,7 @@ export default {
 		// img: 'https://i.ibb.co/2cZ1PD7/headshot-color-transparent.png',
 		text: ['Hey there!', "I'm Marc Lüttecke,", "and I'm a"],
 		typical: [
-			'web developer.',
+			'software engineer.',
 			2000,
 			'data scientist.',
 			2000,
