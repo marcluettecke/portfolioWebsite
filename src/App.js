@@ -116,7 +116,7 @@ const App = () => {
 					<Stack />
 					<SectionSeparation
 						shortText={'Testimonials'}
-						longText={'Testimnonials by former employers'}
+						longText={'Testimonials by former employers'}
 						direction={'right'}
 						id={'testimonials_nav'}
 					/>
